@@ -1,0 +1,279 @@
+{
+  "config": {
+    "origin_country": "Nigeria",
+    "origin_city": "Lagos",
+    "dest_country": "USA",
+    "dest_city": "Houston",
+    "language": "Yoruba",
+    "age": 14,
+    "anchor": 6,
+    "language_use": 6,
+    "homophily": 5,
+    "density": "Medium",
+    "institutional": false,
+    "transmission": 5,
+    "biography": ""
+  },
+  "forced_choices": {
+    "Adolescence": [
+      "Cultural Youth Group"
+    ],
+    "Early Adulthood": [
+      "Heritage Travel"
+    ],
+    "Established Life": [
+      "Only Yoruba at Home"
+    ]
+  },
+  "state": {
+    "scores": {
+      "language": 15,
+      "cultural_practice": 45,
+      "social_affiliation": 30,
+      "self_presentation": 20
+    },
+    "resilience_anchors": [
+      "family connections",
+      "community gatherings"
+    ],
+    "risk_factors": [
+      "cultural misunderstandings",
+      "economic competition"
+    ],
+    "personal_anchor_used": "none",
+    "stage_history": [
+      {
+        "stage": "Baseline",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 70,
+          "social_affiliation": 55,
+          "self_presentation": 65
+        },
+        "resilience_anchors": [
+          "family connections",
+          "community gatherings"
+        ],
+        "risk_factors": [
+          "cultural misunderstandings",
+          "economic competition"
+        ],
+        "community_density_assessment": "Houston's Nigerian community offers a supportive environment, though cultural differences create challenges.",
+        "personal_anchor_used": "none",
+        "narrative": "You navigate the streets of Houston, where the sound of Yoruba echoes in your home, a reminder of the life you've left behind. At school, your classmates share stories of their backgrounds, some familiar, others foreign, as you balance your roots with the new experiences around you. The local market bustles, filled with the scents and sounds of home, yet you sometimes feel the weight of expectations to blend in. As you gather with friends at a weekend event, laughter mingles with the rhythm of familiar music, creating moments that tether you to both worlds."
+      },
+      {
+        "stage": "Arrival",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 70,
+          "social_affiliation": 55,
+          "self_presentation": 65
+        },
+        "primary_driver": "cultural misunderstandings, exemplified by a recent encounter when a classmate made a joke about your accent, leaving you feeling isolated.",
+        "narrative": "After your arrival in Houston, you faced a challenging moment when a classmate laughed at your Yoruba accent during a group project. This incident echoed in your mind, making you self-conscious about how you spoke and prompting you to focus more on fitting in. You continued to visit the Nigerian cultural events in Alief, but the sting of that moment lingered, leaving you hesitant to express your heritage openly. As you gathered with family for traditional meals, the contrast of comfort at home and discomfort at school weighed heavily on you.",
+        "failure_log": "A classmate laughed at your Yoruba accent during a group project, leading to increased self-consciousness about your language use."
+      },
+      {
+        "stage": "Adolescence",
+        "scores": {
+          "language": 45,
+          "cultural_practice": 65,
+          "social_affiliation": 50,
+          "self_presentation": 50
+        },
+        "primary_driver": "cultural misunderstandings, particularly after a peer made another derogatory comment about your accent during a group discussion.",
+        "narrative": "In Houston, the sting of another comment about your Yoruba accent from a peer during a group discussion weighed heavily on you. This moment felt like a public reminder of your differences, pushing you further into a shell where you hesitated to speak up. While you continued to attend Nigerian community gatherings, your confidence in expressing your culture diminished, leading you to shy away from sharing your traditional practices. As you tried to navigate friendships, you felt the pressure to conform, resulting in awkward attempts to fit in that often felt disingenuous.",
+        "failure_log": "A peer made another derogatory comment about your Yoruba accent during a group discussion, leading to a drop in self-presentation and language scores.",
+        "user_choices": [
+          "Cultural Youth Group"
+        ]
+      },
+      {
+        "stage": "Early Adulthood",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 55,
+          "social_affiliation": 40,
+          "self_presentation": 35
+        },
+        "primary_driver": "cultural misunderstandings, particularly after a significant incident at a university mixer where a peer openly mocked your Yoruba accent, causing you to retreat further from your heritage.",
+        "narrative": "At a university mixer in Houston, a peer\u2019s loud mockery of your Yoruba accent felt like a public humiliation, cementing your resolve to hide your cultural identity. This incident left you feeling isolated, pushing you away from engaging in cultural practices and leading to a noticeable decline in your confidence. While you still attended gatherings, you found yourself participating less and less, as the sting of that moment lingered in your mind. You grappled with awkward moments when trying to connect with peers, often feeling like an outsider even in spaces meant for socializing.",
+        "failure_log": "A peer openly mocked your Yoruba accent at a university mixer, leading to significant drops in language and self-presentation scores.",
+        "user_choices": [
+          "Heritage Travel"
+        ]
+      },
+      {
+        "stage": "Established Life",
+        "scores": {
+          "language": 15,
+          "cultural_practice": 45,
+          "social_affiliation": 30,
+          "self_presentation": 20
+        },
+        "primary_driver": "cultural misunderstandings, particularly after being challenged by an employer about your accent during a job interview.",
+        "narrative": "In Houston, your confidence took another hit when a prospective employer bluntly questioned your accent during a job interview, suggesting it might hinder communication with clients. This moment not only made you feel inadequate but also pushed you further away from embracing your Yoruba heritage. As you struggled to engage with the Nigerian community, the disconnect between your identity and the expectations of the workplace became more pronounced. Your attempts to connect with peers felt increasingly forced, leaving you feeling like an outsider even among those who shared your background.",
+        "failure_log": "Being challenged by an employer about your accent during a job interview led to significant drops in language and self-presentation scores.",
+        "user_choices": [
+          "Only Yoruba at Home"
+        ]
+      }
+    ],
+    "failure_log": [
+      {
+        "stage": "Arrival",
+        "event": "A classmate laughed at your Yoruba accent during a group project, leading to increased self-consciousness about your language use."
+      },
+      {
+        "stage": "Adolescence",
+        "event": "A peer made another derogatory comment about your Yoruba accent during a group discussion, leading to a drop in self-presentation and language scores."
+      },
+      {
+        "stage": "Early Adulthood",
+        "event": "A peer openly mocked your Yoruba accent at a university mixer, leading to significant drops in language and self-presentation scores."
+      },
+      {
+        "stage": "Established Life",
+        "event": "Being challenged by an employer about your accent during a job interview led to significant drops in language and self-presentation scores."
+      }
+    ],
+    "config": {
+      "origin_country": "Nigeria",
+      "origin_city": "Lagos",
+      "dest_country": "USA",
+      "dest_city": "Houston",
+      "language": "Yoruba",
+      "age": 14,
+      "anchor": 6,
+      "language_use": 6,
+      "homophily": 5,
+      "density": "Medium",
+      "institutional": false,
+      "transmission": 5,
+      "biography": ""
+    },
+    "geo_context": "The Nigerian community in Houston is significant, with estimates suggesting around 50,000 to 70,000 individuals, primarily concentrated in neighborhoods such as Alief, Southwest Houston, and the Greater Third Ward. These areas serve as cultural hubs where Nigerian immigrants frequently gather, fostering a sense of community. Key institutional infrastructure includes places like the Redeemed Christian Church of God and the Yoruba Cultural and Heritage Center, alongside various restaurants offering traditional Nigerian cuisine, such as Buka Restaurant. The cultural distance between Nigeria and the USA is rated as Moderate; while both societies share some modern values, significant differences remain in terms of collectivism versus individualism, religious practices, and family structures, with Nigeria placing a stronger emphasis on communal ties and extended family networks. In terms of assimilation pressure, Houston's diverse demographics and economic landscape\u2014supported by a large immigrant population\u2014allow for a relatively accepted maintenance of distinct cultural identities, although there is still some expectation to adapt to mainstream norms. Overall, the reception of Nigerian immigrants in Houston tends to be positive, characterized by a blend of community solidarity and some social friction, particularly in the context of economic competition and cultural misunderstandings.",
+    "geo_structured": {
+      "diaspora_presence": {
+        "population_estimate": "5,000-10,000",
+        "neighborhoods": [
+          "Alief",
+          "Southwest Houston"
+        ],
+        "notes": "The Nigerian community in Houston has been growing steadily, particularly in suburban areas."
+      },
+      "institutions": {
+        "restaurants": [
+          "Buka Restaurant",
+          "Mama's Kitchen"
+        ],
+        "places_of_worship": [
+          "The Redeemed Christian Church of God - Jesus House",
+          "St. Francis Anglican Church"
+        ],
+        "cultural_centers": [
+          "Nigerian Cultural and Heritage Center"
+        ],
+        "language_schools": [
+          "Yoruba Language School Houston"
+        ],
+        "annual_events": [
+          "Nigeria Independence Day Parade",
+          "African Cultural Alliance of North America events"
+        ]
+      },
+      "schools_and_universities": {
+        "k12_schools_with_diversity": [
+          "Alief Independent School District",
+          "Fort Bend Independent School District"
+        ],
+        "universities_with_cultural_groups": [
+          "University of Houston",
+          "Rice University"
+        ]
+      },
+      "similarities_to_origin": {
+        "architecture": "some modern apartment complexes reflect urban Nigerian architecture",
+        "geography": "different",
+        "climate": "similar warm summers but milder winters",
+        "public_spaces": "none"
+      },
+      "assimilation_pressure": "Moderate, as the community maintains cultural practices while adapting to local customs.",
+      "reception": "The host community generally receives immigrants from Nigeria positively, appreciating their contributions to the cultural diversity of Houston."
+    },
+    "tipping_point_occurred": true
+  },
+  "reflection": {
+    "narrative_summary": "You move from Lagos to Houston, initially feeling connected to your Yoruba roots amidst a vibrant Nigerian community. However, as you encounter cultural misunderstandings and mockery regarding your accent, your confidence begins to wane. This leads to a significant decline in your language use and cultural engagement, pushing you further from your heritage. Ultimately, your journey reflects the challenges of navigating identity in a new environment while grappling with external perceptions.",
+    "turning_point": "Early Adulthood marked a critical shift as your scores dropped significantly when a peer openly mocked your Yoruba accent at a university mixer, leading to a retreat from cultural practices and a decline in self-presentation and language scores.",
+    "ranked_drivers": [
+      "1. Cultural misunderstandings: A peer's mockery of your accent in a public setting led to deep feelings of humiliation and isolation.",
+      "2. Economic competition: The pressure to conform to workplace expectations regarding communication further alienated you from your heritage.",
+      "3. Social affiliation: Your decreasing participation in community gatherings reflected a growing disconnect from your cultural identity."
+    ],
+    "counterfactual_a": "Had the destination been Atlanta, Georgia, with a lower Nigerian diaspora density, you might have experienced an estimated score difference of 5-10 points higher in cultural practice due to less social pressure to assimilate.",
+    "counterfactual_b": "If you had chosen to engage more actively in the Yoruba Cultural and Heritage Center instead of withdrawing, you might have maintained a score increase of 10-15 points in both social affiliation and cultural practice.",
+    "preservation_verdict": "Critical Erosion due to the significant decline in your language and cultural engagement scores, highlighting the profound impact of cultural misunderstandings on identity retention.",
+    "research_note": "This case exemplifies the challenges faced by immigrants in maintaining cultural identity amidst pressures to assimilate, reinforcing findings in migration literature about the role of social acceptance in cultural preservation."
+  },
+  "trajectory": [
+    {
+      "stage": "Baseline",
+      "scores": {
+        "language": 60,
+        "cultural_practice": 70,
+        "social_affiliation": 55,
+        "self_presentation": 65
+      }
+    },
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 60,
+        "cultural_practice": 70,
+        "social_affiliation": 55,
+        "self_presentation": 65
+      }
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 45,
+        "cultural_practice": 71,
+        "social_affiliation": 62,
+        "self_presentation": 50
+      },
+      "choices": [
+        "Cultural Youth Group"
+      ]
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 38,
+        "cultural_practice": 67,
+        "social_affiliation": 48,
+        "self_presentation": 35
+      },
+      "choices": [
+        "Heritage Travel"
+      ]
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 15,
+        "cultural_practice": 45,
+        "social_affiliation": 30,
+        "self_presentation": 20
+      },
+      "choices": [
+        "Only Yoruba at Home"
+      ]
+    }
+  ],
+  "metrics": {
+    "counterfactual_score": 2
+  }
+}

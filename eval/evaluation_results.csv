@@ -1,0 +1,13 @@
+case_id,case_type,name,outcome,metric_value,expected,explanation
+TC-01,single,TC-01,PASS,"final_language=70, final_mr=47.5",final language >= 60,The test case passed because the final language score of 70 exceeded the expected condition of 60.
+TC-02,single,TC-02,FAIL,final_language=30,final language < 25,The test case failed because the final language score of 30 exceeded the expected condition of being less than 25.
+TC-05,single,TC-05,PASS,"final_mr=4.5, pivot_impact=3.8000000000000007",final MR < 45 and pivot impact < 8,The test case PASSed because both final MR (4.5) and pivot impact (3.8) are below the expected thresholds.
+TC-08,single,TC-08,FAIL,counterfactual_score=2,counterfactual specificity score >= 4,Test case TC-08 failed because the counterfactual specificity score of 2 did not meet the expected threshold of 4.
+TC-09,single,TC-09,PASS,tipping_point_detected=True,tipping point detected == True,The test case passed because the detected tipping point matched the expected condition of being true.
+TC-10,single,TC-10,FAIL,sensory_keyword_count=0,sensory keyword count >= 2,The test case failed because the actual sensory keyword count of 0 did not meet the expected minimum of 2.
+TC-11,single,TC-11,PASS,final_language=70,final language >= 60 (London destination),The test case PASSed because the final language score of 70 exceeded the expected condition of 60 for the London destination.
+TC-12,single,TC-12,PASS,final_language=5,final language < 25 (Toronto destination),The test case passed because the final language score of 5 is less than the expected condition of 25 for the Toronto destination.
+TC-03,paired,Institutional Buffer,FAIL,Δ CP = 10,cultural practice delta >= 15,The test case failed because the cultural practice delta of 10 is less than the expected minimum of 15.
+TC-04,paired,Pivot Divergence,PASS,"language=30, cultural_practice=27, social_affiliation=42, self_presentation=15",two dimensions delta >= 12,The test case passed because the deltas for 'social_affiliation' and 'language' exceeded the required threshold of 12.
+TC-06,paired,Cross‑Cultural Validity,FAIL,"language=20, cultural_practice=0, social_affiliation=0, self_presentation=5",two dimensions delta >= 10 (cross‑cultural),"The test failed because only the 'language' dimension met the threshold, while 'cultural_practice' and 'social_affiliation' showed no delta."
+TC-07,paired,Personalisation Fidelity,FAIL,MR delta = -16.599999999999998,MR delta (vivid - generic) >= 8,The test case failed because the MR delta of -16.6 is significantly below the expected minimum of 8.

@@ -1,0 +1,205 @@
+{
+  "run_metadata": {
+    "timestamp": "2026-04-27T00:41:56.483861",
+    "case_label": "cancun_texas_12",
+    "provider_used": {
+      "geo_research": "OpenAI",
+      "profile_agent": "OpenAI",
+      "drift_stage_1": "OpenAI",
+      "drift_stage_2": "OpenAI",
+      "drift_stage_3": "OpenAI",
+      "drift_stage_4": "OpenAI",
+      "reflection_agent": "OpenAI"
+    }
+  },
+  "input_configuration": {
+    "origin_country": "mexico",
+    "origin_city": "cancun",
+    "dest_country": "austin",
+    "dest_city": "texas",
+    "language": "spanish",
+    "age": 12,
+    "anchor": 7,
+    "language_use": 6,
+    "homophily": 5,
+    "density": "Low",
+    "institutional": false,
+    "transmission": 6,
+    "biography": ""
+  },
+  "geo_context": "The Mexican community in Texas is significant, with estimates suggesting that over 11 million people of Mexican origin reside in the state, particularly concentrated in urban areas like Austin, San Antonio, and Houston. In Austin, neighborhoods such as East Austin and areas around Riverside Drive have notable concentrations of Mexican immigrants, creating cultural corridors where Spanish is commonly spoken and traditional customs are maintained. Institutions like the Mexican American Cultural Center in Austin serve as vital hubs for cultural expression and community engagement, offering language classes, art exhibitions, and festivals that celebrate Mexican heritage. \n\nSociologically, Austin and Mexico share several dimensions, but they diverge on individualism versus collectivism, with Mexico leaning more towards collectivism, particularly in family structures and social networks. Overall, I would rate the cultural distance between Mexico and Austin as Moderate, given the similarities in language and some shared values, contrasted with differences in individualistic tendencies and religious practices. The pressure to assimilate in Austin is relatively moderate; while the city's demographics and tech-driven economy encourage blending in, there remains a strong acceptance of diverse cultural identities, bolstered by a progressive social environment. Texas generally receives Mexican immigrants with a mix of community solidarity and social friction; while many find support networks and cultural acceptance, issues of discrimination and anti-immigrant sentiment do persist, reflecting a complex and evolving dynamic in the state.",
+  "final_mr_score": 32.5,
+  "final_scores": {
+    "language": 50,
+    "cultural_practice": 25,
+    "social_affiliation": 21,
+    "self_presentation": 24
+  },
+  "trajectory": [
+    {
+      "stage": "Baseline",
+      "scores": {
+        "language": 70,
+        "cultural_practice": 60,
+        "social_affiliation": 55,
+        "self_presentation": 65
+      }
+    },
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 55,
+        "cultural_practice": 50,
+        "social_affiliation": 40,
+        "self_presentation": 50
+      }
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 50,
+        "cultural_practice": 39,
+        "social_affiliation": 36,
+        "self_presentation": 48
+      },
+      "choices": [
+        "Cultural Youth Group",
+        "The 'Stinky Lunch' Moment",
+        "Refusing Traditional Dress"
+      ]
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 53,
+        "cultural_practice": 41,
+        "social_affiliation": 29,
+        "self_presentation": 36
+      },
+      "choices": [
+        "Professional Code\u2011Switching",
+        "The 'Intro to [Origin]' Class",
+        "Heritage Travel"
+      ]
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 50,
+        "cultural_practice": 25,
+        "social_affiliation": 21,
+        "self_presentation": 24
+      },
+      "choices": [
+        "The Naming Legacy",
+        "Religious Re\u2011connection",
+        "Cultural Mentorship"
+      ]
+    }
+  ],
+  "stage_history": [
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 55,
+        "cultural_practice": 50,
+        "social_affiliation": 40,
+        "self_presentation": 50
+      },
+      "primary_driver": "Pressure to assimilate in a diverse urban environment, exemplified by the challenge of navigating peer interactions that often prioritize English.",
+      "narrative": "After moving from Cancun to Austin, you felt the weight of trying to fit in at school, especially when classmates teased you for your accent during a group activity. You had joined a local after-school program hoping to meet other Spanish speakers, but found yourself increasingly isolating as conversations shifted to English. The struggle between maintaining your cultural practices and the pressure to adapt to a new social landscape left you feeling torn. One day, while walking home, you overheard a group of kids laughing about traditional Mexican celebrations, which made you question your own connection to those customs. This moment of disconnection deepened your uncertainty about how to present yourself.",
+      "failure_log": "Mocked for your accent during a group activity."
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 50,
+        "cultural_practice": 45,
+        "social_affiliation": 30,
+        "self_presentation": 40
+      },
+      "primary_driver": "Pressure to assimilate in a diverse urban environment, highlighted by feeling increasingly isolated from your Mexican heritage during a school project.",
+      "narrative": "As you navigated high school in Austin, you felt the strain of trying to connect with peers while grappling with your identity. During a group project, your classmates dismissed the importance of celebrating D\u00eda de los Muertos, which left you feeling alienated from your own traditions. You had tried to participate in a few Spanish-speaking clubs, but they often felt insular, and the conversations tended to drift toward English. This experience deepened your uncertainty about how to express your cultural identity, leading you to downplay your heritage in social settings, which felt like a betrayal. One afternoon, you overheard a friend joking about your accent again, reinforcing the pressure to conform and further distancing you from your roots.",
+      "failure_log": "Mocked again for your accent during a group project.",
+      "user_choices": [
+        "Cultural Youth Group",
+        "The 'Stinky Lunch' Moment",
+        "Refusing Traditional Dress"
+      ]
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 50,
+        "cultural_practice": 30,
+        "social_affiliation": 25,
+        "self_presentation": 30
+      },
+      "primary_driver": "Pressure to assimilate in a diverse urban environment, intensified by your experiences in college where English dominates social interactions.",
+      "narrative": "As you stepped into early adulthood in Austin, your connection to Spanish began to wane. During a group project in college, most of your classmates dismissed the relevance of discussing Latinx culture, forcing you to sit in silence while they debated in English. This moment echoed your past experiences of feeling alienated, leading you to further suppress your heritage language and cultural practices. While you had joined a few clubs, they often felt disconnected from what you remembered from home, leaving you questioning how to present yourself authentically. The laughter you once heard about your accent now seemed like a distant echo, but it still stung as you navigated a world where your identity felt increasingly fragmented.",
+      "failure_log": "Cultural practices significantly dropped as you felt disconnected during a college project discussing Latinx culture.",
+      "user_choices": [
+        "Professional Code\u2011Switching",
+        "The 'Intro to [Origin]' Class",
+        "Heritage Travel"
+      ]
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 50,
+        "cultural_practice": 15,
+        "social_affiliation": 10,
+        "self_presentation": 20
+      },
+      "primary_driver": "Pressure to assimilate in a diverse urban environment, highlighted by a significant disconnection from your cultural practices and community.",
+      "narrative": "As you settled into your early twenties in Austin, your connection to Spanish and your cultural practices began to fade drastically. A pivotal moment occurred when you attended a friend's birthday party and realized that no one spoke Spanish, forcing you to navigate conversations entirely in English. This left you feeling even more isolated, as you watched others discuss their cultural traditions without you. You attempted to engage with a couple of local cultural events, but they felt superficial and disconnected from the richness of your heritage. Each experience deepened your sense of alienation, leading you to question how to express your identity in a city that felt increasingly foreign.",
+      "failure_log": "Cultural practices dropped significantly after feeling disconnected at a friend's birthday party where only English was spoken.",
+      "user_choices": [
+        "The Naming Legacy",
+        "Religious Re\u2011connection",
+        "Cultural Mentorship"
+      ]
+    }
+  ],
+  "failure_log": [
+    {
+      "stage": "Arrival",
+      "event": "Mocked for your accent during a group activity."
+    },
+    {
+      "stage": "Adolescence",
+      "event": "Mocked again for your accent during a group project."
+    },
+    {
+      "stage": "Early Adulthood",
+      "event": "Cultural practices significantly dropped as you felt disconnected during a college project discussing Latinx culture."
+    },
+    {
+      "stage": "Established Life",
+      "event": "Cultural practices dropped significantly after feeling disconnected at a friend's birthday party where only English was spoken."
+    }
+  ],
+  "resilience_anchors": [
+    "Family ties that encourage cultural continuity",
+    "Proficiency in Spanish aiding communication"
+  ],
+  "risk_factors": [
+    "Pressure to assimilate in a diverse urban environment",
+    "Limited institutional support for cultural practices"
+  ],
+  "pivot_choice": null,
+  "reflection_report": {
+    "narrative_summary": "As you transitioned from Cancun to Austin, you initially navigated the challenges of assimilation while trying to maintain your cultural identity. However, experiences of mockery for your accent and isolation within your heritage led to a significant decline in your connection to cultural practices. As you moved into early adulthood, the dominance of English in college environments further eroded your ties to both language and community. Ultimately, the cumulative effects of these experiences culminated in a profound sense of alienation from your Mexican heritage.",
+    "turning_point": "Early Adulthood marked a critical tipping point, where your cultural practice score dropped from 41 to 30, primarily due to pressures to assimilate and the feeling of disconnection during a college project discussing Latinx culture, reinforcing your alienation.",
+    "ranked_drivers": [
+      "1. Cultural practices significantly dropped as you felt disconnected during a college project discussing Latinx culture, emphasizing assimilation pressures.",
+      "2. The continued mocking of your accent further alienated you from your peers, reinforcing the need to suppress your heritage.",
+      "3. A lack of supportive cultural institutions in your immediate environment led to limited engagement with your heritage."
+    ],
+    "counterfactual_a": "If Austin had a lower density of the Mexican diaspora, similar to a city like Seattle, your cultural practice score might have been 15 points lower, leading to even greater isolation.",
+    "counterfactual_b": "If you had chosen to engage more deeply with cultural mentorship instead of religious reconnection, you might have seen an increase of up to 10 points in social affiliation, potentially leading to a stronger community connection.",
+    "preservation_verdict": "Critical Erosion, as significant disconnection from cultural practices and language reflects a profound loss of heritage amidst pressures to assimilate.",
+    "research_note": "This experience aligns with migration literature highlighting how urban environments with diverse but dominant cultures can lead to the erosion of immigrant identities among minority groups."
+  }
+}

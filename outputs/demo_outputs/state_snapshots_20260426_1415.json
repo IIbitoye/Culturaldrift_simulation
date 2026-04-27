@@ -1,0 +1,2416 @@
+[
+  {
+    "timestamp": "2026-04-26T14:14:02.733852",
+    "stage": "profile",
+    "snapshot_name": "after_profile_agent",
+    "json_state": {
+      "scores": {
+        "language": 60,
+        "cultural_practice": 70,
+        "social_affiliation": 40,
+        "self_presentation": 50
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [],
+      "failure_log": [],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:09.799863",
+    "stage": "drift_1",
+    "snapshot_name": "after_drift_Arrival",
+    "json_state": {
+      "scores": {
+        "language": 55,
+        "cultural_practice": 65,
+        "social_affiliation": 30,
+        "self_presentation": 45
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:18.871562",
+    "stage": "drift_2",
+    "snapshot_name": "after_drift_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 60,
+        "social_affiliation": 25,
+        "self_presentation": 40
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:22.716390",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 50,
+        "social_affiliation": 25,
+        "self_presentation": 48
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:24.456159",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 48,
+        "social_affiliation": 25,
+        "self_presentation": 50
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:27.294435",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 50,
+        "social_affiliation": 25,
+        "self_presentation": 48
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:28.688258",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 48,
+        "social_affiliation": 25,
+        "self_presentation": 50
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:30.120949",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 50,
+        "social_affiliation": 25,
+        "self_presentation": 48
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:30.860085",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 48,
+        "social_affiliation": 25,
+        "self_presentation": 50
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:32.965616",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 52,
+        "social_affiliation": 25,
+        "self_presentation": 48
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:34.101289",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 48,
+        "social_affiliation": 25,
+        "self_presentation": 50
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:36.320208",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 52,
+        "social_affiliation": 25,
+        "self_presentation": 48
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:37.125048",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 48,
+        "social_affiliation": 25,
+        "self_presentation": 50
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:39.835538",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 52,
+        "social_affiliation": 25,
+        "self_presentation": 48
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:41.537072",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 50,
+        "cultural_practice": 48,
+        "social_affiliation": 25,
+        "self_presentation": 50
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:43.307661",
+    "stage": "drift_2",
+    "snapshot_name": "after_choices_Adolescence",
+    "json_state": {
+      "scores": {
+        "language": 46,
+        "cultural_practice": 51,
+        "social_affiliation": 25,
+        "self_presentation": 54
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:14:49.528382",
+    "stage": "drift_3",
+    "snapshot_name": "after_drift_Early Adulthood",
+    "json_state": {
+      "scores": {
+        "language": 48,
+        "cultural_practice": 55,
+        "social_affiliation": 20,
+        "self_presentation": 38
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:12.948309",
+    "stage": "drift_3",
+    "snapshot_name": "after_choices_Early Adulthood",
+    "json_state": {
+      "scores": {
+        "language": 48,
+        "cultural_practice": 59,
+        "social_affiliation": 32,
+        "self_presentation": 38
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:14.898486",
+    "stage": "drift_3",
+    "snapshot_name": "after_choices_Early Adulthood",
+    "json_state": {
+      "scores": {
+        "language": 48,
+        "cultural_practice": 57,
+        "social_affiliation": 24,
+        "self_presentation": 48
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:16.369604",
+    "stage": "drift_3",
+    "snapshot_name": "after_choices_Early Adulthood",
+    "json_state": {
+      "scores": {
+        "language": 48,
+        "cultural_practice": 59,
+        "social_affiliation": 32,
+        "self_presentation": 38
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:16.915542",
+    "stage": "drift_3",
+    "snapshot_name": "after_choices_Early Adulthood",
+    "json_state": {
+      "scores": {
+        "language": 48,
+        "cultural_practice": 57,
+        "social_affiliation": 24,
+        "self_presentation": 48
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:17.947264",
+    "stage": "drift_3",
+    "snapshot_name": "after_choices_Early Adulthood",
+    "json_state": {
+      "scores": {
+        "language": 48,
+        "cultural_practice": 59,
+        "social_affiliation": 32,
+        "self_presentation": 38
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:18.110114",
+    "stage": "drift_3",
+    "snapshot_name": "after_choices_Early Adulthood",
+    "json_state": {
+      "scores": {
+        "language": 48,
+        "cultural_practice": 57,
+        "social_affiliation": 24,
+        "self_presentation": 48
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:20.081452",
+    "stage": "drift_3",
+    "snapshot_name": "after_choices_Early Adulthood",
+    "json_state": {
+      "scores": {
+        "language": 48,
+        "cultural_practice": 63,
+        "social_affiliation": 32,
+        "self_presentation": 45
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:25.555494",
+    "stage": "drift_4",
+    "snapshot_name": "after_drift_Established Life",
+    "json_state": {
+      "scores": {
+        "language": 46,
+        "cultural_practice": 52,
+        "social_affiliation": 18,
+        "self_presentation": 35
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage.",
+          "user_choices": [
+            "Dating Preference",
+            "The Resume Name\u2011Change",
+            "Founding a Campus Org"
+          ]
+        },
+        {
+          "stage": "Established Life",
+          "scores": {
+            "language": 46,
+            "cultural_practice": 52,
+            "social_affiliation": 18,
+            "self_presentation": 35
+          },
+          "primary_driver": "cultural distance, as the gap between your Yoruba heritage and the American lifestyle has widened during your established life stage.",
+          "narrative": "Living in Pittsburgh during your early twenties, you attended a networking event for young professionals. When a colleague asked about your background, you hesitated and then mentioned your Yoruba heritage, feeling a familiar pang of discomfort as they mispronounced your name. Later, you attempted to join a Nigerian cultural group, but the fragmented conversations about shared experiences left you feeling even more isolated. Each time you faced moments like these, it felt harder to present yourself authentically, as the pressure to fit into the American context continued to loom over you.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling disconnected at the networking event and struggling to bond with the Nigerian cultural group."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        },
+        {
+          "stage": "Established Life",
+          "event": "Your social affiliation score dropped significantly after feeling disconnected at the networking event and struggling to bond with the Nigerian cultural group."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:26.940399",
+    "stage": "drift_4",
+    "snapshot_name": "after_choices_Established Life",
+    "json_state": {
+      "scores": {
+        "language": 46,
+        "cultural_practice": 58,
+        "social_affiliation": 30,
+        "self_presentation": 35
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage.",
+          "user_choices": [
+            "Dating Preference",
+            "The Resume Name\u2011Change",
+            "Founding a Campus Org"
+          ]
+        },
+        {
+          "stage": "Established Life",
+          "scores": {
+            "language": 46,
+            "cultural_practice": 52,
+            "social_affiliation": 18,
+            "self_presentation": 35
+          },
+          "primary_driver": "cultural distance, as the gap between your Yoruba heritage and the American lifestyle has widened during your established life stage.",
+          "narrative": "Living in Pittsburgh during your early twenties, you attended a networking event for young professionals. When a colleague asked about your background, you hesitated and then mentioned your Yoruba heritage, feeling a familiar pang of discomfort as they mispronounced your name. Later, you attempted to join a Nigerian cultural group, but the fragmented conversations about shared experiences left you feeling even more isolated. Each time you faced moments like these, it felt harder to present yourself authentically, as the pressure to fit into the American context continued to loom over you.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling disconnected at the networking event and struggling to bond with the Nigerian cultural group."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        },
+        {
+          "stage": "Established Life",
+          "event": "Your social affiliation score dropped significantly after feeling disconnected at the networking event and struggling to bond with the Nigerian cultural group."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:27.443263",
+    "stage": "drift_4",
+    "snapshot_name": "after_choices_Established Life",
+    "json_state": {
+      "scores": {
+        "language": 46,
+        "cultural_practice": 56,
+        "social_affiliation": 34,
+        "self_presentation": 38
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage.",
+          "user_choices": [
+            "Dating Preference",
+            "The Resume Name\u2011Change",
+            "Founding a Campus Org"
+          ]
+        },
+        {
+          "stage": "Established Life",
+          "scores": {
+            "language": 46,
+            "cultural_practice": 52,
+            "social_affiliation": 18,
+            "self_presentation": 35
+          },
+          "primary_driver": "cultural distance, as the gap between your Yoruba heritage and the American lifestyle has widened during your established life stage.",
+          "narrative": "Living in Pittsburgh during your early twenties, you attended a networking event for young professionals. When a colleague asked about your background, you hesitated and then mentioned your Yoruba heritage, feeling a familiar pang of discomfort as they mispronounced your name. Later, you attempted to join a Nigerian cultural group, but the fragmented conversations about shared experiences left you feeling even more isolated. Each time you faced moments like these, it felt harder to present yourself authentically, as the pressure to fit into the American context continued to loom over you.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling disconnected at the networking event and struggling to bond with the Nigerian cultural group."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        },
+        {
+          "stage": "Established Life",
+          "event": "Your social affiliation score dropped significantly after feeling disconnected at the networking event and struggling to bond with the Nigerian cultural group."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  },
+  {
+    "timestamp": "2026-04-26T14:15:28.332353",
+    "stage": "drift_4",
+    "snapshot_name": "after_choices_Established Life",
+    "json_state": {
+      "scores": {
+        "language": 46,
+        "cultural_practice": 59,
+        "social_affiliation": 35,
+        "self_presentation": 37
+      },
+      "resilience_anchors": [
+        "family support",
+        "heritage language maintenance"
+      ],
+      "risk_factors": [
+        "cultural distance",
+        "low neighborhood cultural density"
+      ],
+      "personal_anchor": "",
+      "personal_anchor_used": "none",
+      "stage_history": [
+        {
+          "stage": "Arrival",
+          "scores": {
+            "language": 55,
+            "cultural_practice": 65,
+            "social_affiliation": 30,
+            "self_presentation": 45
+          },
+          "primary_driver": "cultural distance, as you struggled to adjust to the significant differences between Lagos and Pittsburgh",
+          "narrative": "You left Lagos and arrived in Pittsburgh, where you were enrolled in a new school. You tried to maintain your Yoruba language skills, but it was challenging without many speakers around. You felt a sense of disconnection from your heritage when you were mocked for your accent by a classmate. In Pittsburgh, you found it difficult to practice your cultural traditions, such as celebrating the Osun Osogbo festival, without the support of a large Nigerian community. You began to question your self-presentation and wondered if you should adapt to fit in better.",
+          "failure_log": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "scores": {
+            "language": 50,
+            "cultural_practice": 60,
+            "social_affiliation": 25,
+            "self_presentation": 40
+          },
+          "primary_driver": "cultural distance, as you continued to feel the gap between your Yoruba heritage and the American lifestyle.",
+          "narrative": "Now in Pittsburgh, you attended a school event where students showcased their cultures. You felt a pang of nostalgia as you watched others celebrate their backgrounds, while your own heritage felt sidelined. Later, a classmate asked you about your accent, and when you hesitated, they joked that you must be from 'somewhere exotic,' making you cringe inside. You tried to join a small gathering of Nigerian teens, but the awkwardness of blending in with their conversations made you feel even more disconnected. These moments left you questioning how to present yourself as you navigated through adolescence.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate.",
+          "user_choices": [
+            "Refusing Traditional Dress",
+            "The 'Stinky Lunch' Moment",
+            "The Accent Filter"
+          ]
+        },
+        {
+          "stage": "Early Adulthood",
+          "scores": {
+            "language": 48,
+            "cultural_practice": 55,
+            "social_affiliation": 20,
+            "self_presentation": 38
+          },
+          "primary_driver": "cultural distance, as you feel the widening gap between your Yoruba heritage and the American lifestyle during your early adulthood.",
+          "narrative": "In Pittsburgh, you attended a college orientation where students were encouraged to share their backgrounds. When it was your turn, you hesitated to mention your Yoruba heritage, fearing another mockery about your accent. Later, you tried to connect with a Nigerian student but found yourself struggling to keep up with their references and jokes, leading to feelings of isolation. You also faced pressure from peers to adopt American cultural practices, which made you question how to present yourself authentically. These moments left you feeling increasingly disconnected from both your heritage and your new environment.",
+          "failure_log": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage.",
+          "user_choices": [
+            "Dating Preference",
+            "The Resume Name\u2011Change",
+            "Founding a Campus Org"
+          ]
+        },
+        {
+          "stage": "Established Life",
+          "scores": {
+            "language": 46,
+            "cultural_practice": 52,
+            "social_affiliation": 18,
+            "self_presentation": 35
+          },
+          "primary_driver": "cultural distance, as the gap between your Yoruba heritage and the American lifestyle has widened during your established life stage.",
+          "narrative": "Living in Pittsburgh during your early twenties, you attended a networking event for young professionals. When a colleague asked about your background, you hesitated and then mentioned your Yoruba heritage, feeling a familiar pang of discomfort as they mispronounced your name. Later, you attempted to join a Nigerian cultural group, but the fragmented conversations about shared experiences left you feeling even more isolated. Each time you faced moments like these, it felt harder to present yourself authentically, as the pressure to fit into the American context continued to loom over you.",
+          "failure_log": "Your social affiliation score dropped significantly after feeling disconnected at the networking event and struggling to bond with the Nigerian cultural group."
+        }
+      ],
+      "failure_log": [
+        {
+          "stage": "Arrival",
+          "event": "Your social affiliation score dropped significantly due to the mocking incident at school, which made you feel like an outsider in your new environment."
+        },
+        {
+          "stage": "Adolescence",
+          "event": "Your social affiliation score dropped significantly after feeling out of place at the school event and the mocking incident from your classmate."
+        },
+        {
+          "stage": "Early Adulthood",
+          "event": "Your social affiliation score dropped significantly after an awkward interaction at college orientation, where you hesitated to speak about your Yoruba heritage."
+        },
+        {
+          "stage": "Established Life",
+          "event": "Your social affiliation score dropped significantly after feeling disconnected at the networking event and struggling to bond with the Nigerian cultural group."
+        }
+      ],
+      "pivot_choice": null,
+      "config": {
+        "origin_country": "nigeria",
+        "origin_city": "lagos",
+        "dest_country": "united states",
+        "dest_city": "pitsburgh",
+        "language": "yoruba",
+        "age": 12,
+        "anchor": 7,
+        "language_use": 6,
+        "homophily": 5,
+        "density": "Low",
+        "institutional": false,
+        "transmission": 6,
+        "biography": ""
+      },
+      "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 2,000-3,000 individuals, with a notable concentration in the East Liberty and Squirrel Hill neighborhoods. The Nigerian Association of Pittsburgh is a key cultural institution serving this group, offering community events and cultural activities. The cultural distance between Nigeria and the United States is High, as the two countries differ significantly in terms of individualism vs collectivism, religious environment, and family structure norms. In Pittsburgh, the pressure to assimilate quickly is Moderate, as the city's demographics and economic structure suggest a relatively accepting environment for maintaining a distinct cultural identity, with some neighborhoods like Squirrel Hill having a history of welcoming international communities. The host culture reception in Pittsburgh towards Nigerian immigrants is generally neutral, with some instances of social friction and discrimination documented, but also efforts by community organizations like the Pittsburgh Council for International Visitors to promote cross-cultural understanding. The city's universities, such as the University of Pittsburgh, also play a role in shaping the reception of international students and immigrants, including those from Nigeria. Overall, while there are challenges to navigating cultural differences, Pittsburgh's relatively small but growing international community suggests a degree of openness to diversity. However, the extent to which Nigerian immigrants can maintain their heritage language, Yoruba, and cultural practices may depend on individual circumstances and the level of community support."
+    }
+  }
+]

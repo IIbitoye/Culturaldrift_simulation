@@ -1,0 +1,171 @@
+{
+  "run_metadata": {
+    "timestamp": "2026-04-26T09:48:32.548873",
+    "case_label": "cancun_lancaster,_pittsburgh_5",
+    "provider_used": {
+      "geo_research": "Groq",
+      "profile_agent": "Groq",
+      "drift_stage_1": "Groq",
+      "drift_stage_2": "Groq",
+      "drift_stage_3": "Groq",
+      "drift_stage_4": "Groq",
+      "reflection_agent": "Groq"
+    }
+  },
+  "input_configuration": {
+    "origin_country": "mexico",
+    "origin_city": "cancun",
+    "dest_country": "united states",
+    "dest_city": "lancaster, pittsburgh",
+    "language": "spanish",
+    "age": 5,
+    "anchor": 8,
+    "language_use": 7,
+    "homophily": 6,
+    "density": "Very low",
+    "institutional": false,
+    "transmission": 7,
+    "biography": ""
+  },
+  "geo_context": "The Mexican community in Lancaster, Pennsylvania, is estimated to be around 10,000-15,000 individuals, with a notable concentration in the city's southeast neighborhood, specifically along South Prince Street. In Pittsburgh, the Mexican population is smaller, approximately 2,000-3,000, with some presence in the Beechview and Brookline neighborhoods. The Lancaster-based organization, La Casa de la Cultura, serves as a cultural hub for the community, offering language classes, cultural events, and social services. The cultural distance between Mexico and the United States is Moderate, as both countries exhibit a mix of individualistic and collectivistic tendencies, but differ significantly in language, with Spanish being the primary language spoken in Mexico. The pressure to assimilate in Lancaster and Pittsburgh is relatively strong, driven by the cities' predominantly white, English-speaking populations and economic structures that often favor native-born workers. However, Lancaster's reputation as a welcoming city for refugees and immigrants may mitigate this pressure to some extent. The reception of Mexican immigrants in these cities is generally neutral to positive, with some instances of social friction and discrimination, but also documented examples of community solidarity and support, such as the annual Fiesta Latina celebration in Lancaster's Binns Park. Overall, while there are some challenges to navigating the host culture, Mexican immigrants in Lancaster and Pittsburgh can find resources and community support to help them settle and maintain their heritage.",
+  "final_mr_score": 63.8,
+  "final_scores": {
+    "language": 58,
+    "cultural_practice": 81,
+    "social_affiliation": 69,
+    "self_presentation": 36
+  },
+  "trajectory": [
+    {
+      "stage": "Baseline",
+      "scores": {
+        "language": 70,
+        "cultural_practice": 60,
+        "social_affiliation": 40,
+        "self_presentation": 50
+      }
+    },
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 65,
+        "cultural_practice": 58,
+        "social_affiliation": 42,
+        "self_presentation": 48
+      }
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 71,
+        "cultural_practice": 38,
+        "social_affiliation": 30,
+        "self_presentation": 14
+      }
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 63,
+        "cultural_practice": 54,
+        "social_affiliation": 51,
+        "self_presentation": 28
+      }
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 58,
+        "cultural_practice": 81,
+        "social_affiliation": 69,
+        "self_presentation": 36
+      }
+    }
+  ],
+  "stage_history": [
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 65,
+        "cultural_practice": 58,
+        "social_affiliation": 42,
+        "self_presentation": 48
+      },
+      "primary_driver": "Neighborhood cultural density: The very low cultural density in Lancaster leads to limited exposure to Spanish and Mexican customs",
+      "narrative": "You struggle to maintain your Spanish skills in Lancaster, as English dominates your daily interactions. One day, you try to order food in Spanish at a local restaurant, but the staff doesn't understand you, making you feel embarrassed. Your parents' arguments over preserving traditional Mexican practices at home also affect your cultural practice score. In school, you face difficulties making friends who share your cultural background, leading to a slight decrease in social affiliation. As you navigate this new environment, you begin to question your self-presentation, feeling like you don't quite fit in.",
+      "failure_log": ""
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 71,
+        "cultural_practice": 38,
+        "social_affiliation": 30,
+        "self_presentation": 14
+      },
+      "primary_driver": "Neighborhood cultural density: You struggle to find peers who share your Mexican heritage in Lancaster, leading to decreased opportunities for language use and cultural practice",
+      "narrative": "You're in high school in Lancaster, and one day, you're mocked by classmates for using Spanish in a group project, making you feel self-conscious about your language skills. This incident, combined with the lack of Mexican cultural events in your daily life, contributes to a decline in your cultural practice score. You start to drift away from your heritage, finding it challenging to balance your Mexican roots with the predominantly American culture surrounding you. As a result, your social affiliation score drops, reflecting your struggles to connect with like-minded individuals. You begin to wonder if you'll ever find a community that truly understands you in Lancaster.",
+      "failure_log": "Tipping point: Language score dropped by 15 points due to the mocking incident, triggering a re-evaluation of your language use and cultural identity"
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 63,
+        "cultural_practice": 54,
+        "social_affiliation": 51,
+        "self_presentation": 28
+      },
+      "primary_driver": "Institutional anchor absent: The lack of a cultural organization or community group in Lancaster that caters to young Mexican adults like yourself contributes to the stagnation of your cultural practice and social affiliation scores",
+      "narrative": "You're navigating Early Adulthood in Lancaster, and one day, you stumble upon a small, family-owned Mexican restaurant in the city. This chance encounter triggers a re-awakening of your cultural practice, as the smell of homemade tortillas and the sound of Spanish being spoken transport you back to your childhood in Cancun. However, the language score drops due to a sharp decline in opportunities to practice Spanish in your daily life, including a humiliating moment when you struggled to order in Spanish at a local coffee shop, feeling embarrassed in front of your peers. As you reflect on your identity, you begin to question how to balance your Mexican heritage with the predominantly American culture surrounding you in Lancaster. Your self-presentation score remains low, as you continue to grapple with finding a sense of belonging in the city.",
+      "failure_log": "Tipping point: Language score dropped by 7 points due to the lack of opportunities to practice Spanish, but no sharp drop occurred."
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 58,
+        "cultural_practice": 81,
+        "social_affiliation": 69,
+        "self_presentation": 36
+      },
+      "primary_driver": "Institutional anchor: You discover La Casa de la Cultura in Lancaster, which becomes a hub for your cultural activities and helps you connect with others who share your heritage",
+      "narrative": "You're living in Lancaster, and one day, you stumble upon a Mexican cultural event at La Casa de la Cultura, where you meet others who share your background. This encounter sparks a re-awakening of your cultural practice, as you start attending language classes and participating in traditional celebrations. However, your language score drops due to a sharp decline in opportunities to practice Spanish in your daily life, including a moment when you struggled to understand a Mexican dialect spoken by a new friend. As you navigate your identity in Lancaster, you begin to question how to balance your Mexican heritage with the predominantly American culture surrounding you. You start to feel a sense of connection to the city's Mexican community, but your self-presentation remains uncertain.",
+      "failure_log": "Tipping point: Language score dropped by 5 points due to limited opportunities to practice Spanish, but no sharp drop occurred."
+    }
+  ],
+  "failure_log": [
+    {
+      "stage": "Adolescence",
+      "event": "Tipping point: Language score dropped by 15 points due to the mocking incident, triggering a re-evaluation of your language use and cultural identity"
+    },
+    {
+      "stage": "Early Adulthood",
+      "event": "Tipping point: Language score dropped by 7 points due to the lack of opportunities to practice Spanish, but no sharp drop occurred."
+    },
+    {
+      "stage": "Established Life",
+      "event": "Tipping point: Language score dropped by 5 points due to limited opportunities to practice Spanish, but no sharp drop occurred."
+    }
+  ],
+  "resilience_anchors": [
+    "Heritage language use at home: You continue to use Spanish at home, which helps maintain a connection to your Mexican roots",
+    "Cultural anchor: Your strong cultural anchor from Mexico supports your identity in Lancaster"
+  ],
+  "risk_factors": [
+    "Neighborhood cultural density: The very low cultural density in your neighborhood may lead to feelings of isolation",
+    "Institutional anchor absent: The lack of an institutional anchor in your life may make it harder to find resources and community support"
+  ],
+  "pivot_choice": null,
+  "reflection_report": {
+    "narrative_summary": "As you navigated your life in Lancaster, you experienced a mix of cultural preservation and erosion, with your language skills and cultural practice scores fluctuating over time. Your arrival in Lancaster marked a significant turning point, as you struggled to maintain your Spanish skills and connect with others who shared your Mexican heritage. However, the discovery of La Casa de la Cultura in Lancaster helped you reconnect with your cultural roots and find a sense of community. Despite this, you continued to face challenges in balancing your Mexican identity with the predominantly American culture surrounding you. Ultimately, your cultural practice and social affiliation scores improved, but your language skills and self-presentation remained uncertain.",
+    "turning_point": "The turning point occurred during the Established Life stage, when you discovered La Casa de la Cultura in Lancaster, which shifted your cultural practice score from 54 to 81 and helped you connect with others who shared your heritage, due to the organization's role as a cultural hub and provider of language classes and social services.",
+    "ranked_drivers": [
+      "Neighborhood cultural density: The very low cultural density in Lancaster led to limited exposure to Spanish and Mexican customs, affecting your language and cultural practice scores.",
+      "Institutional anchor: The presence or absence of organizations like La Casa de la Cultura significantly impacted your cultural practice and social affiliation scores, with the organization's support helping to mitigate the effects of low cultural density.",
+      "Language use at home: Your continued use of Spanish at home helped maintain a connection to your Mexican roots, but was not enough to offset the effects of limited opportunities to practice Spanish in daily life."
+    ],
+    "counterfactual_a": "If you had moved to a city like Chicago, which has a larger and more dense Mexican diaspora community, your language score might have been 10-15 points higher, as you would have had more opportunities to practice Spanish and connect with others who share your heritage.",
+    "counterfactual_b": "If you had chosen to pivot towards a stronger connection with your Mexican heritage during the Early Adulthood stage, by seeking out more cultural events and language classes, your cultural practice score might have increased by 10-15 points, and your self-presentation score might have improved as well.",
+    "preservation_verdict": "The verdict is Moderate Erosion, as while you were able to reconnect with your cultural roots and find a sense of community in Lancaster, your language skills and self-presentation remained uncertain, reflecting the ongoing challenges of balancing your Mexican identity with the predominantly American culture surrounding you.",
+    "research_note": "This case study highlights the importance of institutional anchors and neighborhood cultural density in supporting the cultural preservation of migrant communities, as seen in the broader migration literature, which emphasizes the role of community resources and social networks in shaping immigrant outcomes."
+  }
+}

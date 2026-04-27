@@ -1,0 +1,205 @@
+{
+  "run_metadata": {
+    "timestamp": "2026-04-26T22:46:52.109332",
+    "case_label": "lagos_hawaii_12",
+    "provider_used": {
+      "geo_research": "OpenAI",
+      "profile_agent": "OpenAI",
+      "drift_stage_1": "OpenAI",
+      "drift_stage_2": "OpenAI",
+      "drift_stage_3": "OpenAI",
+      "drift_stage_4": "OpenAI",
+      "reflection_agent": "OpenAI"
+    }
+  },
+  "input_configuration": {
+    "origin_country": "nigeria",
+    "origin_city": "lagos",
+    "dest_country": "united states",
+    "dest_city": "hawaii",
+    "language": "yoruba",
+    "age": 12,
+    "anchor": 7,
+    "language_use": 6,
+    "homophily": 5,
+    "density": "Low",
+    "institutional": false,
+    "transmission": 6,
+    "biography": ""
+  },
+  "geo_context": "The Nigerian community in Hawaii is relatively small, with estimates suggesting a few thousand individuals, primarily concentrated in urban areas such as Honolulu, where they often settle due to job opportunities and community networks. There are no well-defined neighborhoods specifically for Nigerians, but cultural corridors can be found in areas where diverse immigrant groups converge, promoting interaction and potential cultural exchange. Institutions like the Nigerian Association of Hawaii serve as a focal point for community activities, providing a sense of belonging through cultural events and gatherings. The cultural distance between Nigeria and the United States is assessed as moderate; while both societies value family and community, Nigeria is more collectivist, with stronger ties to extended family structures and communal living, contrasting with the individualistic tendencies in the U.S. \n\nIn terms of assimilation pressure, Hawaii\u2019s unique demographic landscape, which includes a significant Asian and Pacific Islander population, provides a relatively welcoming environment for maintaining distinct cultural identities, though there remains an underlying expectation for immigrants to adapt to mainstream social norms. The reception of Nigerian immigrants in Hawaii appears to be generally positive, with reports indicating a mix of community solidarity and occasional challenges related to cultural misunderstandings, but overall, many Nigerians find avenues for connection and support within the broader immigrant community. This environment allows for the preservation of heritage, such as the Yoruba language, while navigating life in a new cultural context.",
+  "final_mr_score": 39.2,
+  "final_scores": {
+    "language": 39,
+    "cultural_practice": 50,
+    "social_affiliation": 30,
+    "self_presentation": 27
+  },
+  "trajectory": [
+    {
+      "stage": "Baseline",
+      "scores": {
+        "language": 60,
+        "cultural_practice": 70,
+        "social_affiliation": 50,
+        "self_presentation": 65
+      }
+    },
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 45,
+        "cultural_practice": 60,
+        "social_affiliation": 35,
+        "self_presentation": 50
+      }
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 42,
+        "cultural_practice": 52,
+        "social_affiliation": 31,
+        "self_presentation": 39
+      },
+      "choices": [
+        "The 'Stinky Lunch' Moment",
+        "Cultural Youth Group",
+        "Digital Diaspora"
+      ]
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 41,
+        "cultural_practice": 56,
+        "social_affiliation": 26,
+        "self_presentation": 37
+      },
+      "choices": [
+        "The Resume Name\u2011Change",
+        "Founding a Campus Org",
+        "The 'Intro to [Origin]' Class"
+      ]
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 39,
+        "cultural_practice": 50,
+        "social_affiliation": 30,
+        "self_presentation": 27
+      },
+      "choices": [
+        "Cultural Mentorship",
+        "Religious Re\u2011connection",
+        "Intergenerational Co\u2011living"
+      ]
+    }
+  ],
+  "stage_history": [
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 45,
+        "cultural_practice": 60,
+        "social_affiliation": 35,
+        "self_presentation": 50
+      },
+      "primary_driver": "pressure to assimilate, illustrated by your struggle to connect with peers while feeling the weight of cultural expectations.",
+      "narrative": "After moving from Lagos to Hawaii, you faced the challenge of adapting to a new school environment. A moment that stood out was during a group presentation, where your accent drew whispers and giggles from classmates, making you self-conscious about your Yoruba heritage. At home, you held onto your language while feeling increasingly isolated from peers, who seemed to effortlessly blend into the local culture. You attended occasional gatherings organized by the Nigerian Association of Hawaii, but the lack of familiarity left you feeling like an outsider in both communities.",
+      "failure_log": "Mocked for your accent during a group presentation at school."
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 40,
+        "cultural_practice": 50,
+        "social_affiliation": 25,
+        "self_presentation": 35
+      },
+      "primary_driver": "pressure to assimilate, highlighted by your struggle to navigate social circles while feeling disconnected from your heritage.",
+      "narrative": "At 15, you found yourself at a crossroads in Hawaii, grappling with your identity. During a school field trip, a group of peers laughed when you attempted to explain a Yoruba tradition, leaving you feeling exposed and embarrassed. That moment pushed you to further adapt your presentation, even practicing local slang to fit in better. Socially, you felt increasingly isolated, often opting to stay home rather than facing the tension between your roots and the overwhelming push to conform.",
+      "failure_log": "Mocked during a school field trip for explaining a Yoruba tradition.",
+      "user_choices": [
+        "The 'Stinky Lunch' Moment",
+        "Cultural Youth Group",
+        "Digital Diaspora"
+      ]
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 38,
+        "cultural_practice": 45,
+        "social_affiliation": 20,
+        "self_presentation": 30
+      },
+      "primary_driver": "pressure to assimilate, intensified by feeling increasingly distant from both your Yoruba roots and the social circles in Hawaii.",
+      "narrative": "As you entered early adulthood in Hawaii, the pressure to fit in weighed heavily on you. A pivotal moment occurred during a casual gathering with friends when you attempted to share a story in Yoruba, only to be met with blank stares and awkward silence. This left you feeling like an outsider, prompting you to instinctively switch to English, further distancing yourself from your heritage. Social interactions became strained; you often felt more comfortable with your peers at work than with those from your community, leading to a sense of isolation. The feeling that you were losing touch with your identity grew stronger, and you found yourself grappling with the desire to belong while simultaneously feeling disconnected from your roots.",
+      "failure_log": "Felt alienated after sharing a story in Yoruba at a gathering, leading to a drop in language and social affiliation scores.",
+      "user_choices": [
+        "The Resume Name\u2011Change",
+        "Founding a Campus Org",
+        "The 'Intro to [Origin]' Class"
+      ]
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 35,
+        "cultural_practice": 40,
+        "social_affiliation": 15,
+        "self_presentation": 25
+      },
+      "primary_driver": "pressure to assimilate, exacerbated by a sense of alienation from both your Yoruba heritage and social circles in Hawaii.",
+      "narrative": "As you settled into your early twenties in Hawaii, a disheartening moment unfolded during a networking event for young professionals. When you attempted to introduce a Yoruba proverb to emphasize a point, the lack of understanding from your peers prompted a wave of silence, making you feel unseen. This experience led you to further diminish your use of Yoruba, opting for a more neutral tone in conversations. Socially, you found yourself gravitating towards a work environment where your heritage felt irrelevant, deepening your sense of isolation. The distance from both your roots and a cohesive community left you questioning your identity.",
+      "failure_log": "Felt alienated after using a Yoruba proverb at a networking event, leading to a drop in language and social affiliation scores.",
+      "user_choices": [
+        "Cultural Mentorship",
+        "Religious Re\u2011connection",
+        "Intergenerational Co\u2011living"
+      ]
+    }
+  ],
+  "failure_log": [
+    {
+      "stage": "Arrival",
+      "event": "Mocked for your accent during a group presentation at school."
+    },
+    {
+      "stage": "Adolescence",
+      "event": "Mocked during a school field trip for explaining a Yoruba tradition."
+    },
+    {
+      "stage": "Early Adulthood",
+      "event": "Felt alienated after sharing a story in Yoruba at a gathering, leading to a drop in language and social affiliation scores."
+    },
+    {
+      "stage": "Established Life",
+      "event": "Felt alienated after using a Yoruba proverb at a networking event, leading to a drop in language and social affiliation scores."
+    }
+  ],
+  "resilience_anchors": [
+    "heritage language use at home strengthens cultural identity",
+    "community networks provide emotional support"
+  ],
+  "risk_factors": [
+    "low neighborhood cultural density limits social interactions",
+    "pressure to assimilate may challenge cultural practices"
+  ],
+  "pivot_choice": null,
+  "reflection_report": {
+    "narrative_summary": "You migrated from Lagos to Hawaii, initially holding onto your Yoruba heritage. However, as time progressed, social pressures to assimilate led to a decline in your language use and cultural practices. Experiences of alienation during formative social interactions exacerbated your disconnect from both your Nigerian roots and the broader Hawaiian community. This culminated in a significant identity struggle, leaving you feeling isolated and questioning your cultural identity.",
+    "turning_point": "In the 'Established Life' stage, your scores dropped dramatically as you felt the brunt of assimilation pressures after an experience at a networking event where your use of a Yoruba proverb resulted in awkward silence, marking a pivotal shift where cultural disconnection intensified.",
+    "ranked_drivers": [
+      "1. Pressure to assimilate: Your struggle to connect with peers while feeling the weight of cultural expectations was evident throughout your journey.",
+      "2. Low neighborhood cultural density: Limited social interactions in a sparse Nigerian community reduced opportunities for cultural engagement.",
+      "3. Lack of institutional support: The absence of strong community networks in Hawaii made it difficult to navigate the complexities of your dual identity."
+    ],
+    "counterfactual_a": "If you had moved to Houston, Texas, which has a much denser Nigerian diaspora, your scores might have been 15-20 points higher due to greater community support and cultural familiarity.",
+    "counterfactual_b": "If you had chosen 'Cultural Mentorship' as your pivot instead of 'Intergenerational Co-living', you might have significantly bolstered your cultural practices and social affiliation scores by fostering connections with community leaders.",
+    "preservation_verdict": "Critical Erosion due to the pronounced decline in language use and cultural practices, exacerbated by pressures to assimilate and limited community support.",
+    "research_note": "This case illustrates the complexities of cultural preservation in immigrant communities, particularly in contexts of low diaspora density and significant assimilation pressures, aligning with findings in migration studies."
+  }
+}

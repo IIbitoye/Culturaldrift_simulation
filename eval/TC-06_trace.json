@@ -1,0 +1,333 @@
+{
+  "Nigerian": {
+    "scores": {
+      "language": 40,
+      "cultural_practice": 30,
+      "social_affiliation": 25,
+      "self_presentation": 30
+    },
+    "resilience_anchors": [
+      "cultural gatherings that reinforce identity",
+      "community connections that support adaptation"
+    ],
+    "risk_factors": [
+      "experiences of social friction in diverse settings",
+      "pressure to assimilate while maintaining cultural ties"
+    ],
+    "personal_anchor_used": "none",
+    "stage_history": [
+      {
+        "stage": "Baseline",
+        "scores": {
+          "language": 50,
+          "cultural_practice": 50,
+          "social_affiliation": 50,
+          "self_presentation": 50
+        },
+        "resilience_anchors": [
+          "cultural gatherings that reinforce identity",
+          "community connections that support adaptation"
+        ],
+        "risk_factors": [
+          "experiences of social friction in diverse settings",
+          "pressure to assimilate while maintaining cultural ties"
+        ],
+        "community_density_assessment": "The medium density of cultural institutions in Houston offers a supportive backdrop for maintaining distinct cultural identities amidst broader societal integration.",
+        "personal_anchor_used": "none",
+        "narrative": "You navigate the streets of Houston, where the sounds of Yoruba blend with English, creating a rhythm of duality in your day-to-day interactions. At school, you sometimes feel the pull of your Nigerian roots, balancing the expectations of your peers with the warmth of family traditions. Community events draw you in, inviting you to explore connections that affirm your identity while facing the challenges of a new environment. Within this landscape, you find moments of solidarity that remind you of home, even as you negotiate your place in a different world."
+      },
+      {
+        "stage": "Arrival",
+        "scores": {
+          "language": 50,
+          "cultural_practice": 50,
+          "social_affiliation": 50,
+          "self_presentation": 50
+        },
+        "primary_driver": "experiences of social friction in diverse settings, as you navigate complex interactions with peers at school.",
+        "narrative": "In Houston, you sometimes feel the sting of difference during lunch when your friends, speaking in English, don\u2019t seem to understand your Yoruba references. One day, you hesitated to share a funny story from home, fearing it might not land well. This moment of self-doubt hung heavily; you wanted to connect but felt the pressure to fit in. Cultural gatherings on weekends provide a brief escape, but the friction at school lingers, causing you to question how much of yourself you can share without facing misunderstanding.",
+        "failure_log": ""
+      },
+      {
+        "stage": "Adolescence",
+        "scores": {
+          "language": 45,
+          "cultural_practice": 40,
+          "social_affiliation": 35,
+          "self_presentation": 40
+        },
+        "primary_driver": "experiences of social friction in diverse settings, particularly as you faced teasing from classmates about your Yoruba accent.",
+        "narrative": "In Houston, a particularly sharp moment occurred during a group project when a classmate imitated your Yoruba accent, causing laughter among others. That sting of mockery lingered, making you hesitate to participate in discussions, and you found yourself speaking English more often, even in casual settings. Cultural events felt emptier as you struggled to connect with your roots, feeling increasingly distanced from family practices you once enjoyed. The pressure to fit in overshadowed your desire to share your heritage, leading you to withdraw from social circles that once felt familiar.",
+        "failure_log": "You experienced teasing about your Yoruba accent, leading to an acute drop in social affiliation and cultural practice scores."
+      },
+      {
+        "stage": "Early Adulthood",
+        "scores": {
+          "language": 40,
+          "cultural_practice": 30,
+          "social_affiliation": 25,
+          "self_presentation": 30
+        },
+        "primary_driver": "experiences of social friction in diverse settings, particularly as you encountered exclusion from peer groups who favored American cultural references.",
+        "narrative": "In Houston, the pressure to fit in intensified during your college orientation when a group of peers laughed at your unfamiliarity with American pop culture references. You felt the weight of exclusion, which pushed you to speak less Yoruba and avoid cultural discussions altogether. Attending a Nigerian Independence Day celebration felt bittersweet; though you were surrounded by familiar faces, the disconnect from your cultural practices left you feeling isolated. These moments of social friction led you to withdraw from connections that once felt natural, amplifying your struggle to balance your Nigerian identity with the desire to assimilate.",
+        "failure_log": "You faced exclusion from peer groups over unfamiliarity with American pop culture, leading to significant drops in social affiliation and cultural practice scores."
+      },
+      {
+        "stage": "Established Life",
+        "scores": {
+          "language": 40,
+          "cultural_practice": 30,
+          "social_affiliation": 25,
+          "self_presentation": 30
+        },
+        "primary_driver": "experiences of social friction in diverse settings, particularly as you felt increasingly distanced from your heritage while navigating a predominantly English-speaking work environment.",
+        "narrative": "In Houston, a significant moment occurred during a team meeting when colleagues referenced a popular TV show, and you realized you had no idea what they were talking about. This disconnect reinforced your feelings of isolation, prompting you to speak less Yoruba and engage more in English conversations, even at home. Attending a wedding celebration for a distant cousin felt bittersweet; the joy of the event was overshadowed by your struggle to connect with the traditions that once felt so familiar. As you observed others seamlessly blending cultural practices with their American lives, you felt an increasing pressure to conform, leading you to withdraw further from social circles that embraced your Nigerian roots.",
+        "failure_log": "You felt increasingly distanced from your heritage while navigating a predominantly English-speaking work environment, leading to a drop in social affiliation and cultural practice scores."
+      }
+    ],
+    "failure_log": [
+      {
+        "stage": "Adolescence",
+        "event": "You experienced teasing about your Yoruba accent, leading to an acute drop in social affiliation and cultural practice scores."
+      },
+      {
+        "stage": "Early Adulthood",
+        "event": "You faced exclusion from peer groups over unfamiliarity with American pop culture, leading to significant drops in social affiliation and cultural practice scores."
+      },
+      {
+        "stage": "Established Life",
+        "event": "You felt increasingly distanced from your heritage while navigating a predominantly English-speaking work environment, leading to a drop in social affiliation and cultural practice scores."
+      }
+    ],
+    "config": {
+      "origin_country": "Nigeria",
+      "origin_city": "Lagos",
+      "dest_country": "USA",
+      "dest_city": "Houston",
+      "language": "Yoruba",
+      "age": 12,
+      "anchor": 5,
+      "language_use": 5,
+      "homophily": 5,
+      "density": "Medium",
+      "institutional": false,
+      "transmission": 5,
+      "biography": ""
+    },
+    "geo_context": "Houston is home to a sizable Nigerian community, with estimates suggesting that there are around 30,000 to 50,000 Nigerians in the area, particularly concentrated in neighborhoods such as Third Ward and southwest Houston. These areas have emerged as cultural corridors where the Nigerian diaspora has established a presence through various social and cultural activities. Institutions like the Nigerian American Multicultural Council and the Redeemed Christian Church of God serve as pivotal points for cultural preservation and community organization. Additionally, the presence of restaurants such as Buka and cultural events like the annual Nigerian Independence Day celebration highlight the community's engagement with both heritage and local identity.\n\nIn terms of cultural distance, the differences between Nigeria and the United States can be characterized as moderate. While both cultures exhibit a mix of individualism and collectivism, Nigeria leans more towards collectivism, particularly regarding family structures and communal relationships, which contrasts with the more individualistic American ethos. The pressure to assimilate in Houston is somewhat mitigated by its diverse demographics, as the city tends to embrace multiculturalism, allowing for a comfortable coexistence of distinct cultural identities alongside integration into broader American society. However, the extent to which this acceptance is experienced can vary, as some Nigerians might encounter social friction or discrimination, though many also report a supportive community environment that fosters solidarity. Overall, the Nigerian community in Houston navigates a complex landscape where cultural identity is both significant and subject to negotiation within the broader societal context.",
+    "geo_structured": {
+      "diaspora_presence": {
+        "population_estimate": "5,000-10,000",
+        "neighborhoods": [
+          "Southwest Houston",
+          "Alief"
+        ],
+        "notes": "The Nigerian community in Houston has been growing steadily, particularly in the past two decades."
+      },
+      "institutions": {
+        "restaurants": [
+          "Buka Restaurant",
+          "Iya's Kitchen"
+        ],
+        "places_of_worship": [
+          "Redeemed Christian Church of God",
+          "Living Faith Church"
+        ],
+        "cultural_centers": [
+          "Nigerian Cultural and Heritage Center"
+        ],
+        "language_schools": [
+          "Yoruba Language School"
+        ],
+        "annual_events": [
+          "Houston Nigerian Independence Day Celebration",
+          "Nigerian Cultural Festival"
+        ]
+      },
+      "schools_and_universities": {
+        "k12_schools_with_diversity": [
+          "Alief ISD",
+          "Houston ISD"
+        ],
+        "universities_with_cultural_groups": [
+          "University of Houston",
+          "Texas Southern University"
+        ]
+      },
+      "similarities_to_origin": {
+        "architecture": "none notable",
+        "geography": "different",
+        "climate": "similar warm summers but humid conditions year-round",
+        "public_spaces": "none"
+      },
+      "assimilation_pressure": "Moderate pressure to adopt the host culture exists due to the diversity of the Houston area and the prominence of English.",
+      "reception": "The host community generally receives immigrants from Nigeria positively, appreciating their contributions to the local culture and economy."
+    },
+    "tipping_point_occurred": false
+  },
+  "Mexican": {
+    "scores": {
+      "language": 60,
+      "cultural_practice": 30,
+      "social_affiliation": 25,
+      "self_presentation": 35
+    },
+    "resilience_anchors": [
+      "heritage language use fosters connection",
+      "community support organizations offer resources"
+    ],
+    "risk_factors": [
+      "discrimination in employment opportunities",
+      "cultural friction in broader society"
+    ],
+    "personal_anchor_used": "None",
+    "stage_history": [
+      {
+        "stage": "Baseline",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 60,
+          "social_affiliation": 50,
+          "self_presentation": 55
+        },
+        "resilience_anchors": [
+          "heritage language use fosters connection",
+          "community support organizations offer resources"
+        ],
+        "risk_factors": [
+          "discrimination in employment opportunities",
+          "cultural friction in broader society"
+        ],
+        "community_density_assessment": "Houston's diverse neighborhoods provide a moderate level of cultural support, facilitating both connection and integration.",
+        "personal_anchor_used": "None",
+        "narrative": "In Houston, you navigate the bustling streets of the East End, where familiar sounds and scents evoke memories of your childhood in Mexico City. Attending language classes at the local church, you find small pockets of connection that remind you of home. Yet, there are moments of isolation when the cultural nuances elude you, and the rhythm of life feels disjointed. You balance your heritage and the demands of a new environment, each day shaping your identity in this evolving landscape."
+      },
+      {
+        "stage": "Arrival",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 60,
+          "social_affiliation": 50,
+          "self_presentation": 55
+        },
+        "primary_driver": "Cultural friction in broader society \u2014 You faced moments of misunderstanding with classmates who struggled to grasp your references from Mexico City.",
+        "narrative": "In Houston, you often find yourself in language classes at Our Lady of Guadalupe Catholic Church, where the familiar sounds of Spanish offer a fleeting sense of home. However, during lunch at school, you experienced a moment of isolation when a group of classmates laughed as you tried to explain the significance of Dia de los Muertos. Their confusion stung, and you felt a wave of self-doubt wash over you. You try to bridge the gap between your past and the present, but each awkward interaction leaves you questioning how to fit in. As you navigate these challenges, the balance between your cultural roots and the need to assimilate becomes increasingly complex.",
+        "failure_log": ""
+      },
+      {
+        "stage": "Adolescence",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 45,
+          "social_affiliation": 45,
+          "self_presentation": 50
+        },
+        "primary_driver": "Cultural friction in broader society \u2014 You faced mockery at school when trying to share a story about your family's Christmas traditions from Mexico City.",
+        "narrative": "In Houston, as you entered high school, your attempts to share your family's Christmas traditions often ended in awkward laughter. One day, while recounting how you celebrate La Nochebuena, a group of classmates dismissed your story, mocking your accent and references. The sting of their laughter made you second-guess your cultural heritage, leading to a retreat from sharing your experiences. As you navigated these interactions, the chasm between your identity and the expectations of your peers deepened, complicating your feeling of belonging in this new reality.",
+        "failure_log": "You were mocked at school for sharing your family's Christmas traditions, leading to a drop in cultural practice and social affiliation scores."
+      },
+      {
+        "stage": "Early Adulthood",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 30,
+          "social_affiliation": 30,
+          "self_presentation": 40
+        },
+        "primary_driver": "Cultural friction in broader society \u2014 You faced exclusion from peer groups when they dismissed your attempts to bond over shared cultural experiences.",
+        "narrative": "In Houston, as you entered your early adulthood, the divide between your heritage and your desire to fit in grew more pronounced. One evening at a local gathering, you attempted to share a story about your family's New Year's Eve traditions, but your peers laughed and changed the subject, leaving you feeling isolated. You began to withdraw from discussions about culture, fearing ridicule, and this retreat led to a noticeable drop in your social connections and cultural engagement. The struggle to balance your identity and the pressure to conform left you questioning how to present yourself to new acquaintances in this city that often felt foreign.",
+        "failure_log": "You faced exclusion from peer groups when they dismissed your attempts to bond over shared cultural experiences."
+      },
+      {
+        "stage": "Established Life",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 30,
+          "social_affiliation": 25,
+          "self_presentation": 35
+        },
+        "primary_driver": "Cultural friction in broader society \u2014 You experienced a painful moment when a coworker dismissed your attempts to share a favorite Mexican dish at a potluck.",
+        "narrative": "In Houston, as you settled into your early twenties, you faced a disheartening moment at a workplace potluck. Excitedly, you brought a homemade pozole, hoping to share a slice of your heritage. However, when a colleague ridiculed the dish, claiming it looked 'weird,' you felt a wave of embarrassment wash over you, prompting you to withdraw from future discussions about food and culture. This incident, coupled with ongoing feelings of isolation, led to a significant drop in your social connections and participation in cultural practices. The struggle to present yourself authentically in a world that often feels unwelcoming intensified, leaving you questioning how to navigate your identity further.",
+        "failure_log": "You faced exclusion at work when a coworker dismissed your attempts to share a favorite Mexican dish at a potluck."
+      }
+    ],
+    "failure_log": [
+      {
+        "stage": "Adolescence",
+        "event": "You were mocked at school for sharing your family's Christmas traditions, leading to a drop in cultural practice and social affiliation scores."
+      },
+      {
+        "stage": "Early Adulthood",
+        "event": "You faced exclusion from peer groups when they dismissed your attempts to bond over shared cultural experiences."
+      },
+      {
+        "stage": "Established Life",
+        "event": "You faced exclusion at work when a coworker dismissed your attempts to share a favorite Mexican dish at a potluck."
+      }
+    ],
+    "config": {
+      "origin_country": "Mexico",
+      "origin_city": "Mexico City",
+      "dest_country": "USA",
+      "dest_city": "Houston",
+      "language": "Spanish",
+      "age": 12,
+      "anchor": 5,
+      "language_use": 5,
+      "homophily": 5,
+      "density": "Medium",
+      "institutional": false,
+      "transmission": 5,
+      "biography": ""
+    },
+    "geo_context": "The Mexico community in Houston is estimated to be around 150,000 to 200,000 people, with a significant concentration in neighborhoods such as the East End, Gulfton, and Denver Harbor. The city's cultural corridor along Westheimer Road is also home to many Mexican restaurants, shops, and cultural associations, including the Mexican Institute of Greater Houston. In terms of institutional infrastructure, the Our Lady of Guadalupe Catholic Church in the East End serves as a hub for the community, offering language classes, cultural events, and social services. The cultural distance between Mexico and the USA is Moderate, as the two countries differ significantly in terms of individualism vs collectivism, with the USA being more individualistic, but share some similarities in family structure norms. The pressure to assimilate quickly in Houston is relatively low, as the city has a long history of immigrant settlement and a diverse economy, allowing for the maintenance of distinct cultural identities. However, there are still documented patterns of social friction and discrimination against Mexican immigrants in Houston, particularly in the realm of employment and law enforcement. Overall, Houston's reception of Mexican immigrants is complex, with some communities and organizations, such as the Houston Hispanic Chamber of Commerce, offering support and solidarity, while others may exhibit more hostile attitudes. The city's demographics and economic structure suggest that there is a balance between acceptance and assimilation pressure, with many Mexican immigrants able to maintain their heritage language and cultural practices while also integrating into the broader Houston community.",
+    "geo_structured": {
+      "diaspora_presence": {
+        "population_estimate": "unknown",
+        "neighborhoods": [
+          "East End",
+          "Second Ward"
+        ],
+        "notes": "The community has been growing significantly, contributing to the cultural diversity of the area."
+      },
+      "institutions": {
+        "restaurants": [
+          "Ninfa's on Navigation",
+          "El Tiempo Cantina"
+        ],
+        "places_of_worship": [
+          "Our Lady of Guadalupe Catholic Church"
+        ],
+        "cultural_centers": [
+          "Mexican Consulate in Houston"
+        ],
+        "language_schools": [
+          "Spanish for Kids"
+        ],
+        "annual_events": [
+          "Houston Fiestas Patrias",
+          "Dia de los Muertos Festival"
+        ]
+      },
+      "schools_and_universities": {
+        "k12_schools_with_diversity": [
+          "Hogg Middle School",
+          "Austin High School"
+        ],
+        "universities_with_cultural_groups": [
+          "University of Houston",
+          "Texas Southern University"
+        ]
+      },
+      "similarities_to_origin": {
+        "architecture": "some Spanish colonial influences",
+        "geography": "different",
+        "climate": "similar warm summers but more humid",
+        "public_spaces": "none"
+      },
+      "assimilation_pressure": "Moderate pressure to adopt the host culture due to the city's diversity and economic opportunities.",
+      "reception": "The host community generally welcomes immigrants from Mexico, valuing their contributions to the economy and culture."
+    },
+    "tipping_point_occurred": false
+  }
+}

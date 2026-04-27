@@ -1,0 +1,251 @@
+{
+  "config": {
+    "origin_country": "Nigeria",
+    "origin_city": "Lagos",
+    "dest_country": "USA",
+    "dest_city": "Houston",
+    "language": "Yoruba",
+    "age": 9,
+    "anchor": 3,
+    "language_use": 3,
+    "homophily": 2,
+    "density": "Low",
+    "institutional": false,
+    "transmission": 2,
+    "biography": ""
+  },
+  "forced_choices": {},
+  "state": {
+    "scores": {
+      "language": 30,
+      "cultural_practice": 10,
+      "social_affiliation": 5,
+      "self_presentation": 10
+    },
+    "resilience_anchors": [
+      "family connections",
+      "educational opportunities"
+    ],
+    "risk_factors": [
+      "social isolation",
+      "economic competition"
+    ],
+    "personal_anchor_used": "none",
+    "stage_history": [
+      {
+        "stage": "Baseline",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 25,
+          "social_affiliation": 20,
+          "self_presentation": 40
+        },
+        "resilience_anchors": [
+          "family connections",
+          "educational opportunities"
+        ],
+        "risk_factors": [
+          "social isolation",
+          "economic competition"
+        ],
+        "community_density_assessment": "The low cultural density in your neighborhood limits immediate connections to others from your heritage, making the navigation of identity more complex.",
+        "personal_anchor_used": "none",
+        "narrative": "In Houston, you find yourself often caught between worlds, where the sounds of Yoruba fade into the background amidst the English conversations that dominate your daily life. School becomes a space where your name is pronounced differently, and classmates struggle to understand your stories of Lagos. You notice the subtle ways your peers around you engage with their own backgrounds, a stark contrast to the way you navigate yours, often feeling like an outsider. The Nigerian Baptist Church remains a distant thought, a place you\u2019ve never entered, yet you know it exists as a potential bridge to connect with those who might share your experiences."
+      },
+      {
+        "stage": "Arrival",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 25,
+          "social_affiliation": 20,
+          "self_presentation": 40
+        },
+        "primary_driver": "Social isolation due to low cultural density, making it difficult to form connections with peers who share your background.",
+        "narrative": "After moving to Houston, you find yourself navigating a school environment where your Yoruba roots feel increasingly distant. One day, a classmate teases you about your accent during a group project, causing a wave of embarrassment that lingers in your mind. You remember the stories your parents told you about Lagos, but sharing them seems daunting in this new space. The Nigerian Baptist Church remains an idea rather than a reality, and you can't help but feel a sense of isolation amidst your peers, each day amplifying the distance from your cultural practices and language.",
+        "failure_log": "A classmate mocked your accent during a group project, leading to increased feelings of isolation."
+      },
+      {
+        "stage": "Adolescence",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 20,
+          "social_affiliation": 15,
+          "self_presentation": 25
+        },
+        "primary_driver": "Social isolation due to increasing cultural distance, as you feel more disconnected from both Yoruba traditions and your peers in Houston.",
+        "narrative": "As you entered high school in Houston, the teasing about your accent evolved into a more profound disconnection, especially during a group project when a classmate dismissed your contributions based on your background. You attended a Nigerian Independence Day Celebration but felt out of place, surrounded by others who seemed to embrace their heritage more confidently. The Nigerian Baptist Church, once a distant possibility, now feels like an unreachable goal, intensifying your feelings of social isolation. Conversations with peers often leave you feeling like a spectator, where sharing your experiences from Lagos feels increasingly daunting. Each day, the gap widens between your Yoruba identity and the American culture that surrounds you.",
+        "failure_log": "Attending a Nigerian Independence Day Celebration left you feeling out of place, amplifying your social isolation."
+      },
+      {
+        "stage": "Early Adulthood",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 15,
+          "social_affiliation": 10,
+          "self_presentation": 25
+        },
+        "primary_driver": "Cultural disconnection exacerbated by limited engagement with Nigerian institutions in Houston, resulting in a retreat from Yoruba practices.",
+        "narrative": "In Houston, your disconnection from Yoruba culture deepens as you graduate high school and transition into early adulthood. You attended a gathering meant for young Nigerians, but the conversation felt distant and foreign, like listening to a song you used to love but no longer recognize. The Nigerian Baptist Church, which once held promise, remains unvisited, further isolating you from community connections. You begin to notice that sharing your background feels more burdensome than before, leading to a hesitation in how you present yourself among peers. Each day, the gap between your experiences in Lagos and life in Houston seems to widen, leaving you grappling with a sense of loss.",
+        "failure_log": "Attending a gathering for young Nigerians left you feeling disconnected and distant from your cultural roots."
+      },
+      {
+        "stage": "Established Life",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 10,
+          "social_affiliation": 5,
+          "self_presentation": 10
+        },
+        "primary_driver": "Cultural disconnection intensified by the absence of community engagement and the fading use of Yoruba in daily life.",
+        "narrative": "In Houston, your connection to Yoruba culture has dimmed significantly as you enter your early twenties. A conversation with a friend reveals that you can no longer recall basic Yoruba phrases, which leaves you feeling embarrassed and further isolated from your heritage. You attempted to attend a Yoruba cultural event, but the disinterest of others and your own unfamiliarity with the practices made you feel like an outsider. The Nigerian Baptist Church remains unvisited, and each day, the gap between your life in Lagos and your current reality in Houston grows more pronounced.",
+        "failure_log": "Attending a Yoruba cultural event left you feeling like an outsider, amplifying your sense of disconnection."
+      }
+    ],
+    "failure_log": [
+      {
+        "stage": "Arrival",
+        "event": "A classmate mocked your accent during a group project, leading to increased feelings of isolation."
+      },
+      {
+        "stage": "Adolescence",
+        "event": "Attending a Nigerian Independence Day Celebration left you feeling out of place, amplifying your social isolation."
+      },
+      {
+        "stage": "Early Adulthood",
+        "event": "Attending a gathering for young Nigerians left you feeling disconnected and distant from your cultural roots."
+      },
+      {
+        "stage": "Established Life",
+        "event": "Attending a Yoruba cultural event left you feeling like an outsider, amplifying your sense of disconnection."
+      }
+    ],
+    "config": {
+      "origin_country": "Nigeria",
+      "origin_city": "Lagos",
+      "dest_country": "USA",
+      "dest_city": "Houston",
+      "language": "Yoruba",
+      "age": 9,
+      "anchor": 3,
+      "language_use": 3,
+      "homophily": 2,
+      "density": "Low",
+      "institutional": false,
+      "transmission": 2,
+      "biography": ""
+    },
+    "geo_context": "The Nigerian community in Houston is estimated to be around 40,000 individuals, concentrated primarily in neighborhoods such as Third Ward, Southwest Houston, and areas around the University of Houston, where many students and professionals reside. Institutions like the Nigerian American Multicultural Council (NAMC) and the Nigerian Baptist Church serve as cultural hubs, providing support and fostering connections among community members. The cultural distance between Nigeria and the USA can be rated as Moderate; while both societies share a commitment to family, Nigeria's more collectivist ethos contrasts with the individualism prevalent in the U.S., alongside differences in religious practices and ethnic identity expression. Houston's diverse demographic landscape affords a moderate pressure to assimilate, as the city's acceptance of cultural plurality allows for the maintenance of a distinct Nigerian identity, though economic opportunities may encourage faster integration into the mainstream. Generally, Houston has been welcoming to Nigerian immigrants, with documented patterns of community solidarity and support, although there can be instances of social friction and discrimination, particularly in economic competition. Overall, the Nigerian diaspora in Houston navigates a complex landscape of integration while maintaining cultural ties, reflecting both the challenges and opportunities of their immigrant experience.",
+    "geo_structured": {
+      "diaspora_presence": {
+        "population_estimate": "5,000-10,000",
+        "neighborhoods": [
+          "Third Ward",
+          "Southwest Houston"
+        ],
+        "notes": "The Nigerian community in Houston has seen significant growth due to various immigration waves."
+      },
+      "institutions": {
+        "restaurants": [
+          "Buka Restaurant",
+          "Tunde's Restaurant"
+        ],
+        "places_of_worship": [
+          "The Redeemed Christian Church of God",
+          "Living Faith Church"
+        ],
+        "cultural_centers": [
+          "Nigerian Cultural and Heritage Center"
+        ],
+        "language_schools": [
+          "Yoruba Language School of Houston"
+        ],
+        "annual_events": [
+          "Houston Yoruba Festival",
+          "Nigeria Independence Day Celebration"
+        ]
+      },
+      "schools_and_universities": {
+        "k12_schools_with_diversity": [
+          "Harmony School of Excellence",
+          "Cypress Creek High School"
+        ],
+        "universities_with_cultural_groups": [
+          "University of Houston",
+          "Texas Southern University"
+        ]
+      },
+      "similarities_to_origin": {
+        "architecture": "none notable",
+        "geography": "different",
+        "climate": "similar warm summers but milder winters",
+        "public_spaces": "none"
+      },
+      "assimilation_pressure": "Moderate; many community members maintain cultural practices while also integrating into wider American society.",
+      "reception": "The host community generally receives Nigerian immigrants positively, appreciating their contributions to the cultural diversity of Houston."
+    },
+    "tipping_point_occurred": false
+  },
+  "reflection": {
+    "narrative_summary": "As you navigated life in Houston, the disconnection from your Yoruba roots grew more pronounced, leading to feelings of isolation and cultural loss. Each stage of your journey, from arrival to established life, highlighted a gradual retreat from your heritage, with limited engagement in community and cultural practices. Despite the vibrant Nigerian diaspora around you, personal experiences of social friction and a lack of institutional support left you feeling like an outsider. Ultimately, the struggle to balance your Nigerian identity with the pressures of assimilation into American society defined your trajectory.",
+    "turning_point": "The Established Life stage marked a significant shift, as your cultural disconnection intensified, leaving you unable to recall basic Yoruba phrases and feeling increasingly isolated from your heritage.",
+    "ranked_drivers": [
+      "1. Social isolation due to low cultural density, making it difficult to form connections with peers who share your background.",
+      "2. Cultural disconnection exacerbated by limited engagement with Nigerian institutions in Houston.",
+      "3. Economic competition leading to a retreat from cultural practices in favor of assimilation."
+    ],
+    "counterfactual_a": "Had you relocated to Atlanta, Georgia, which has a higher density of Nigerian immigrants, your scores for cultural practice and social affiliation might have been around 15 and 20, respectively, reflecting stronger community ties.",
+    "counterfactual_b": "If you had chosen to engage more actively with the Nigerian Baptist Church, you might have experienced a more profound connection to your heritage, potentially increasing your cultural practice score to 15 and social affiliation to 10.",
+    "preservation_verdict": "Critical Erosion due to the significant disconnection from cultural practices and language, leading to a near-complete loss of cultural identity.",
+    "research_note": "This case exemplifies the challenges faced by immigrants in maintaining cultural heritage amid pressures of assimilation, a common theme in migration literature."
+  },
+  "trajectory": [
+    {
+      "stage": "Baseline",
+      "scores": {
+        "language": 30,
+        "cultural_practice": 25,
+        "social_affiliation": 20,
+        "self_presentation": 40
+      }
+    },
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 30,
+        "cultural_practice": 25,
+        "social_affiliation": 20,
+        "self_presentation": 40
+      }
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 30,
+        "cultural_practice": 20,
+        "social_affiliation": 15,
+        "self_presentation": 25
+      }
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 30,
+        "cultural_practice": 15,
+        "social_affiliation": 10,
+        "self_presentation": 25
+      }
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 30,
+        "cultural_practice": 10,
+        "social_affiliation": 5,
+        "self_presentation": 10
+      }
+    }
+  ],
+  "metrics": {
+    "final_language": 30
+  }
+}

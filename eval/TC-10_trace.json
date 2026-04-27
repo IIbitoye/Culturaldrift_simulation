@@ -1,0 +1,279 @@
+{
+  "config": {
+    "origin_country": "Nigeria",
+    "origin_city": "Lagos",
+    "dest_country": "USA",
+    "dest_city": "Houston",
+    "language": "Yoruba",
+    "age": 12,
+    "anchor": 7,
+    "language_use": 7,
+    "homophily": 6,
+    "density": "Medium",
+    "institutional": true,
+    "transmission": 6,
+    "biography": "Every Sunday my grandmother made egusi soup while my father played Fela Kuti. I am terrified of losing my Yoruba accent and the smell of her kitchen."
+  },
+  "forced_choices": {
+    "Adolescence": [
+      "The Saturday School Sentence"
+    ],
+    "Early Adulthood": [
+      "The Kitchen Anchor"
+    ],
+    "Established Life": [
+      "Only Yoruba at Home"
+    ]
+  },
+  "state": {
+    "scores": {
+      "language": 25,
+      "cultural_practice": 60,
+      "social_affiliation": 25,
+      "self_presentation": 35
+    },
+    "resilience_anchors": [
+      "strong family ties through shared recipes",
+      "community support from the Nigerian Community Association"
+    ],
+    "risk_factors": [
+      "fear of losing cultural identity",
+      "pressure to assimilate in a diverse city"
+    ],
+    "personal_anchor_used": "egusi soup",
+    "stage_history": [
+      {
+        "stage": "Baseline",
+        "scores": {
+          "language": 70,
+          "cultural_practice": 80,
+          "social_affiliation": 60,
+          "self_presentation": 65
+        },
+        "resilience_anchors": [
+          "strong family ties through shared recipes",
+          "community support from the Nigerian Community Association"
+        ],
+        "risk_factors": [
+          "fear of losing cultural identity",
+          "pressure to assimilate in a diverse city"
+        ],
+        "community_density_assessment": "Houston's Nigerian community provides a supportive environment, facilitating the retention of cultural practices despite the challenges of assimilation.",
+        "personal_anchor_used": "egusi soup",
+        "narrative": "Every Sunday in Houston, you find yourself in the kitchen, the aroma of egusi soup wafting through the air, a reminder of your grandmother's hands stirring the pot back in Lagos. Fela Kuti's rhythms fill the space, grounding you in the moment as your father hums along. Each spoonful of soup connects you to your heritage, even as you feel the weight of your Yoruba accent slipping away. You glance at the walls adorned with photos from Nigeria, each snapshot a testament to the life you left behind but still cherish deeply."
+      },
+      {
+        "stage": "Arrival",
+        "scores": {
+          "language": 55,
+          "cultural_practice": 75,
+          "social_affiliation": 50,
+          "self_presentation": 60
+        },
+        "primary_driver": "Fear of losing cultural identity; your struggle to fit in while maintaining your Yoruba heritage affects your confidence.",
+        "narrative": "In Houston, the first day of school was overwhelming. As you walked through the halls of Alief Hastings High School, you felt the weight of stares when you pronounced your name with your Yoruba accent. A classmate mocked your pronunciation, and the laughter echoed in your ears, making you self-conscious about speaking. You joined the Nigerian Community Association's after-school program, yearning for connections, yet you felt the pressure to blend in with peers who seemed effortlessly American. At home, you still cooked egusi soup, but the joy was shadowed by a nagging anxiety about fitting into your new environment.",
+        "failure_log": "Mocked for your accent on the first day of school, leading to a drop in language and social affiliation scores."
+      },
+      {
+        "stage": "Adolescence",
+        "scores": {
+          "language": 40,
+          "cultural_practice": 70,
+          "social_affiliation": 45,
+          "self_presentation": 50
+        },
+        "primary_driver": "Fear of losing cultural identity; your struggles with assimilation deepen as high school pressures mount.",
+        "narrative": "As you entered your sophomore year at Alief Hastings High School, the pressure to fit in intensified. During a group project, a classmate casually remarked that your accent made you sound 'foreign,' and laughter erupted. You felt a pang of embarrassment that pushed you to avoid speaking up in class, further isolating you from peers. Outside of school, while you still enjoyed cooking egusi soup with your family, it felt more like a reminder of what you were trying to suppress rather than a connection to home. The Nigerian Community Association's events began to feel less inviting, and you found yourself drifting away from those ties.",
+        "failure_log": "Mocked for your accent during a group project in school, leading to sharp drops in language and social affiliation scores.",
+        "user_choices": [
+          "The Saturday School Sentence"
+        ]
+      },
+      {
+        "stage": "Early Adulthood",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 65,
+          "social_affiliation": 30,
+          "self_presentation": 40
+        },
+        "primary_driver": "Fear of losing cultural identity; your struggle to navigate adulthood amplifies feelings of isolation and pressure to conform.",
+        "narrative": "In Houston, as you transitioned into early adulthood, you felt the weight of your choices more than ever. When a close friend suggested you stop speaking Yoruba at work to avoid confusion, you hesitated but ultimately agreed, feeling a pang of loss each time you used less of your heritage language. Attending a Nigerian Independence Day celebration felt bittersweet; while you were surrounded by familiar faces, you realized you hardly participated, shrinking back from conversations that once excited you. You still cooked egusi soup, but it lacked the connection it once held, now just a reminder of the distance you felt from your roots.",
+        "failure_log": "Significant drop in language skills after deciding to minimize Yoruba use at work, leading to a disconnect from cultural identity.",
+        "user_choices": [
+          "The Kitchen Anchor"
+        ]
+      },
+      {
+        "stage": "Established Life",
+        "scores": {
+          "language": 25,
+          "cultural_practice": 60,
+          "social_affiliation": 25,
+          "self_presentation": 35
+        },
+        "primary_driver": "Fear of losing cultural identity; the struggle to express your Yoruba heritage in a predominantly English-speaking environment weighs heavily on your confidence.",
+        "narrative": "In Houston, your established life has become a complex juggling act. At work, a supervisor remarked that your occasional Yoruba phrases were 'out of place,' leading you to suppress your language further and feel increasingly disconnected from your roots. Attending a wedding of a distant relative brought a flicker of joy, but you found yourself standing on the periphery, unable to engage fully with the other guests. The egusi soup you prepared felt less like a connection to home and more like a reminder of what you were losing. Each interaction reinforced your hesitance to fully embrace your heritage, leaving you stranded between two worlds.",
+        "failure_log": "Significant drop in language skills after feeling pressured to suppress Yoruba at work, leading to a disconnect from cultural identity.",
+        "user_choices": [
+          "Only Yoruba at Home"
+        ]
+      }
+    ],
+    "failure_log": [
+      {
+        "stage": "Arrival",
+        "event": "Mocked for your accent on the first day of school, leading to a drop in language and social affiliation scores."
+      },
+      {
+        "stage": "Adolescence",
+        "event": "Mocked for your accent during a group project in school, leading to sharp drops in language and social affiliation scores."
+      },
+      {
+        "stage": "Early Adulthood",
+        "event": "Significant drop in language skills after deciding to minimize Yoruba use at work, leading to a disconnect from cultural identity."
+      },
+      {
+        "stage": "Established Life",
+        "event": "Significant drop in language skills after feeling pressured to suppress Yoruba at work, leading to a disconnect from cultural identity."
+      }
+    ],
+    "config": {
+      "origin_country": "Nigeria",
+      "origin_city": "Lagos",
+      "dest_country": "USA",
+      "dest_city": "Houston",
+      "language": "Yoruba",
+      "age": 12,
+      "anchor": 7,
+      "language_use": 7,
+      "homophily": 6,
+      "density": "Medium",
+      "institutional": true,
+      "transmission": 6,
+      "biography": "Every Sunday my grandmother made egusi soup while my father played Fela Kuti. I am terrified of losing my Yoruba accent and the smell of her kitchen."
+    },
+    "geo_context": "The Nigerian community in Houston is significant, with estimates suggesting there are around 40,000 to 50,000 Nigerians residing in the area, primarily concentrated in neighborhoods such as Third Ward, Alief, and Southwest Houston. These areas offer a cultural corridor where many Nigerians have established a presence through various institutions. Notable among these is the Nigerian Community Association of Greater Houston, which serves as a hub for cultural activities, while restaurants like Buka Restaurant provide traditional Nigerian cuisine, fostering a sense of community and heritage. \n\nCulturally, the distance between Nigeria and the United States can be assessed as moderate. While both societies exhibit individualistic tendencies, Nigeria is more collectivist, particularly regarding family structures and community ties, which are often more pronounced than in the U.S. Moreover, the prevalence of diverse religious practices in Nigeria contrasts with the predominantly Christian and secular landscape of the U.S. The pressure to assimilate in Houston varies; the city's diverse demographics and economic opportunities allow for a relatively high degree of acceptance of distinct cultural identities. However, the presence of strong ethnic enclaves means that while some may feel pressure to blend in, many can maintain their cultural practices without significant social friction. Overall, Houston generally receives Nigerian immigrants with a sense of community solidarity, though experiences can vary widely based on individual circumstances and integration efforts.",
+    "geo_structured": {
+      "diaspora_presence": {
+        "population_estimate": "5,000-10,000",
+        "neighborhoods": [
+          "Alief",
+          "Westchase"
+        ],
+        "notes": "The Nigerian community in Houston has been growing steadily due to migration for education and employment opportunities."
+      },
+      "institutions": {
+        "restaurants": [
+          "Buka Restaurant",
+          "Taste of Nigeria"
+        ],
+        "places_of_worship": [
+          "The Redeemed Christian Church of God (RCCG)",
+          "First Nigerian Baptist Church"
+        ],
+        "cultural_centers": [
+          "Nigerian Cultural and Heritage Center"
+        ],
+        "language_schools": [
+          "Yoruba Language School of Houston"
+        ],
+        "annual_events": [
+          "Nigeria Independence Day Celebration",
+          "Yoruba Heritage Festival"
+        ]
+      },
+      "schools_and_universities": {
+        "k12_schools_with_diversity": [
+          "Alief Hastings High School",
+          "Westside High School"
+        ],
+        "universities_with_cultural_groups": [
+          "University of Houston",
+          "Texas Southern University"
+        ]
+      },
+      "similarities_to_origin": {
+        "architecture": "none notable",
+        "geography": "different",
+        "climate": "similar warm summers but milder winters",
+        "public_spaces": "none"
+      },
+      "assimilation_pressure": "Moderate pressure to adopt host culture due to the diverse environment but a strong community presence helps maintain cultural identity.",
+      "reception": "The host community generally receives immigrants from Nigeria positively, appreciating their contributions to the cultural diversity."
+    },
+    "tipping_point_occurred": true
+  },
+  "reflection": {
+    "narrative_summary": "As you navigate the complexities of life in Houston, the weight of cultural identity looms large. Initially buoyed by a vibrant Nigerian community, you increasingly feel the pressure to assimilate, especially in the face of mockery regarding your Yoruba accent. The joy of cooking traditional dishes like egusi soup becomes overshadowed by feelings of isolation and disconnection from your roots. Ultimately, the struggle to balance your heritage with the demands of your new environment leads to a significant decline in your confidence and cultural expression.",
+    "turning_point": "In the 'Adolescence' stage, a mocking remark about your accent during a group project caused a dramatic drop of 15 points in your language and social affiliation scores, marking a pivotal shift toward greater isolation from your cultural identity.",
+    "ranked_drivers": [
+      "1. Mockery of your accent, which significantly impacted your confidence and willingness to engage socially.",
+      "2. Increased pressure to assimilate in a diverse high school environment, leading to a sense of alienation from both American peers and your Nigerian heritage.",
+      "3. The gradual reduction of cultural practices at home, as the joy of cooking traditional meals became tinged with a sense of loss."
+    ],
+    "counterfactual_a": "If the destination had a lower diaspora density, such as in Seattle, the score difference might be around 10-15 points lower, given fewer cultural support systems and community ties.",
+    "counterfactual_b": "If you had chosen to engage more actively in the Nigerian Community Association from the start, focusing on cultural events, your scores in social affiliation and cultural practice may have improved by roughly 10 points.",
+    "preservation_verdict": "Critical Erosion due to significant reductions in language use and cultural affiliation, leading to a fragile connection to your heritage.",
+    "research_note": "This case exemplifies the challenges faced by immigrants navigating identity preservation amidst pressures to assimilate, aligning with findings in migration literature regarding the impact of community density on cultural retention."
+  },
+  "trajectory": [
+    {
+      "stage": "Baseline",
+      "scores": {
+        "language": 70,
+        "cultural_practice": 80,
+        "social_affiliation": 60,
+        "self_presentation": 65
+      }
+    },
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 55,
+        "cultural_practice": 75,
+        "social_affiliation": 50,
+        "self_presentation": 60
+      }
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 50,
+        "cultural_practice": 70,
+        "social_affiliation": 40,
+        "self_presentation": 50
+      },
+      "choices": [
+        "The Saturday School Sentence"
+      ]
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 30,
+        "cultural_practice": 75,
+        "social_affiliation": 35,
+        "self_presentation": 40
+      },
+      "choices": [
+        "The Kitchen Anchor"
+      ]
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 25,
+        "cultural_practice": 60,
+        "social_affiliation": 25,
+        "self_presentation": 35
+      },
+      "choices": [
+        "Only Yoruba at Home"
+      ]
+    }
+  ],
+  "metrics": {
+    "sensory_keyword_count": 0
+  }
+}

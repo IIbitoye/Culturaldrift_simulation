@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-04-26T14:40:40.506340",
+  "stage": "profile",
+  "snapshot_name": "after_profile_agent",
+  "json_state": {
+    "scores": {
+      "language": 60,
+      "cultural_practice": 70,
+      "social_affiliation": 50,
+      "self_presentation": 65
+    },
+    "resilience_anchors": [
+      "familiarity with Yoruba heritage",
+      "support from family"
+    ],
+    "risk_factors": [
+      "pressure to conform to American norms",
+      "limited access to culturally relevant institutions"
+    ],
+    "personal_anchor": "",
+    "personal_anchor_used": "none",
+    "stage_history": [],
+    "failure_log": [],
+    "pivot_choice": null,
+    "config": {
+      "origin_country": "Nigera",
+      "origin_city": "Lagos",
+      "dest_country": "United States",
+      "dest_city": "Pittsburgh",
+      "language": "Yoruba",
+      "age": 12,
+      "anchor": 7,
+      "language_use": 6,
+      "homophily": 5,
+      "density": "Low",
+      "institutional": false,
+      "transmission": 6,
+      "biography": ""
+    },
+    "geo_context": "The Nigerian community in Pittsburgh is estimated to be around 10,000 individuals, primarily concentrated in neighborhoods such as Homewood and East Liberty, where there are significant populations of African immigrants. One notable institution serving this community is the Yoruba Cultural Association of Pittsburgh, which promotes Yoruba heritage through various events and language classes. In terms of cultural distance, the differences between Nigerian and American societies are Moderate; while both cultures value family and community, Nigeria tends to emphasize collectivism and a more communal approach to relationships, contrasting with the individualistic tendencies prevalent in the U.S. The pressure to assimilate in Pittsburgh is relatively moderate, as the city has a diverse immigrant population and a growing acceptance of multicultural identities; however, there is still an underlying expectation for immigrants to adapt to American social norms. Overall, Pittsburgh generally receives immigrants from Nigeria with a mix of openness and challenges; while there are instances of community solidarity, some reports indicate social friction and discrimination, illustrating a complex reception landscape influenced by both regional attitudes and national narratives around immigration."
+  }
+}

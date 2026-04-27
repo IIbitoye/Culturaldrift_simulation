@@ -1,0 +1,78 @@
+{
+  "TC-01": {
+    "passed": true,
+    "metrics": {
+      "final_language": 70,
+      "final_mr": 56.7
+    }
+  },
+  "TC-02": {
+    "passed": true,
+    "metrics": {
+      "final_language": 15
+    }
+  },
+  "TC-05": {
+    "passed": true,
+    "metrics": {
+      "final_mr": 8.3,
+      "pivot_impact": 1.3000000000000007
+    }
+  },
+  "TC-08": {
+    "passed": false,
+    "metrics": {
+      "counterfactual_score": 2
+    }
+  },
+  "TC-09": {
+    "passed": true,
+    "metrics": {
+      "tipping_point_detected": true
+    }
+  },
+  "TC-10": {
+    "passed": false,
+    "metrics": {
+      "sensory_keyword_count": 0
+    }
+  },
+  "TC-11": {
+    "passed": false,
+    "metrics": {}
+  },
+  "TC-12": {
+    "passed": false,
+    "metrics": {}
+  },
+  "TC-03": {
+    "passed": false,
+    "delta": 10,
+    "no_anchor_cp": 25,
+    "with_anchor_cp": 35
+  },
+  "TC-04": {
+    "passed": true,
+    "deltas": {
+      "language": 15,
+      "cultural_practice": 22,
+      "social_affiliation": 37,
+      "self_presentation": 5
+    }
+  },
+  "TC-06": {
+    "passed": false,
+    "deltas": {
+      "language": 5,
+      "cultural_practice": 5,
+      "social_affiliation": 5,
+      "self_presentation": 15
+    }
+  },
+  "TC-07": {
+    "passed": true,
+    "mr_generic": 24.2,
+    "mr_vivid": 32.5,
+    "delta": 8.3
+  }
+}

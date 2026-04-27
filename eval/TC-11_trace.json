@@ -1,0 +1,248 @@
+{
+  "config": {
+    "origin_country": "Nigeria",
+    "origin_city": "Lagos",
+    "dest_country": "UK",
+    "dest_city": "London",
+    "language": "Yoruba",
+    "age": 16,
+    "anchor": 8,
+    "language_use": 7,
+    "homophily": 5,
+    "density": "Low",
+    "institutional": false,
+    "transmission": 3,
+    "biography": ""
+  },
+  "forced_choices": {},
+  "state": {
+    "scores": {
+      "language": 70,
+      "cultural_practice": 40,
+      "social_affiliation": 25,
+      "self_presentation": 50
+    },
+    "resilience_anchors": [
+      "heritage language usage at home",
+      "cultural practice engagement"
+    ],
+    "risk_factors": [
+      "low neighborhood cultural density",
+      "absence of institutional support"
+    ],
+    "personal_anchor_used": "heritage language use at home",
+    "stage_history": [
+      {
+        "stage": "Baseline",
+        "scores": {
+          "language": 70,
+          "cultural_practice": 60,
+          "social_affiliation": 50,
+          "self_presentation": 65
+        },
+        "resilience_anchors": [
+          "heritage language usage at home",
+          "cultural practice engagement"
+        ],
+        "risk_factors": [
+          "low neighborhood cultural density",
+          "absence of institutional support"
+        ],
+        "community_density_assessment": "The lower cultural density in your neighborhood creates a sense of isolation despite the proximity to a larger Nigerian community in London.",
+        "personal_anchor_used": "heritage language use at home",
+        "narrative": "You navigate the streets of London, each step echoing the memories of Lagos. Conversations often shift between Yoruba and English, a blend that feels both familiar and foreign. You find solace in the occasional gatherings at local churches, where shared experiences create a fleeting connection. Yet, the competitive pulse of the city sometimes pushes you to conform, making you question how much of your heritage you can maintain. Still, in quiet moments at home, the warmth of your language keeps the ties to your past alive."
+      },
+      {
+        "stage": "Arrival",
+        "scores": {
+          "language": 70,
+          "cultural_practice": 60,
+          "social_affiliation": 50,
+          "self_presentation": 65
+        },
+        "primary_driver": "Assimilation pressure due to the competitive urban environment of London, which heightened your awareness of your accent and cultural practices.",
+        "narrative": "In London, you experienced a moment that lingered uncomfortably in your mind. During a group project at school, a classmate mocked your Yoruba accent, causing a wave of embarrassment that made you question your authenticity. You felt the weight of the city\u2019s competitive atmosphere pushing you to blend in, even as you clung to your heritage language at home. Yet, Sundays at the Redeemed Christian Church brought fleeting comfort as you engaged in Yoruba hymns, a reminder of your roots amidst the pressure to conform. This tug-of-war between your identity and the desire to fit in marked your early months in this sprawling metropolis.",
+        "failure_log": ""
+      },
+      {
+        "stage": "Adolescence",
+        "scores": {
+          "language": 70,
+          "cultural_practice": 50,
+          "social_affiliation": 40,
+          "self_presentation": 55
+        },
+        "primary_driver": "Increased pressure to conform within peer groups, particularly after being teased for your accent.",
+        "narrative": "In London, the teasing from classmates about your Yoruba accent during a group project lingered in your mind, leading you to speak less Yoruba outside your home. You felt the weight of wanting to fit in with your peers, which pushed you to disengage from cultural practices that once brought you joy, like the Yoruba hymns at church. As you navigated school, the absence of institutional support and the low cultural density of your neighborhood made you feel increasingly isolated, deepening the divide between your home life and school life. You tried to present yourself more like your classmates, but each attempt felt like a betrayal of your heritage, creating confusion about your identity.",
+        "failure_log": "The teasing about your Yoruba accent caused a drop in cultural practice and social affiliation."
+      },
+      {
+        "stage": "Early Adulthood",
+        "scores": {
+          "language": 70,
+          "cultural_practice": 45,
+          "social_affiliation": 30,
+          "self_presentation": 50
+        },
+        "primary_driver": "Increased isolation in a competitive university environment, leading to a disconnect from cultural practices.",
+        "narrative": "As you transitioned into early adulthood in London, the pressures of university life began to weigh heavily on you. During a group presentation, a classmate once again joked about your Yoruba accent, igniting a familiar wave of embarrassment that pushed you further from using your heritage language in public. This incident led you to withdraw from cultural events, feeling increasingly alienated from the Yoruba Cultural Association gatherings that once felt welcoming. The absence of institutional support compounded your feelings of isolation, and your attempts to present yourself more like your peers only deepened the conflict within you. The vibrant community you once found solace in now felt distant, leaving you grappling with your identity amidst the competitive academic landscape.",
+        "failure_log": "The mocking of your Yoruba accent during a group presentation caused a significant drop in cultural practice and social affiliation."
+      },
+      {
+        "stage": "Established Life",
+        "scores": {
+          "language": 70,
+          "cultural_practice": 40,
+          "social_affiliation": 25,
+          "self_presentation": 50
+        },
+        "primary_driver": "Continued isolation and pressure to conform in a competitive work environment, leading to further disengagement from cultural practices.",
+        "narrative": "In London, as you settled into your early twenties, the competitive nature of your job left little room for your Yoruba heritage. During a team-building exercise, a colleague's offhand comment about your accent resurfaced old insecurities, causing you to retreat even more into silence. You found yourself skipping cultural events, including the annual Nigeria Independence Day Celebration, feeling disconnected from the community you once engaged with. Each passing day at work felt like a reminder that blending in was necessary for success, deepening your struggle with your identity. The absence of a supportive network and institutional resources only intensified your feelings of isolation.",
+        "failure_log": "The mocking of your Yoruba accent during a team-building exercise caused a significant drop in cultural practice and social affiliation."
+      }
+    ],
+    "failure_log": [
+      {
+        "stage": "Adolescence",
+        "event": "The teasing about your Yoruba accent caused a drop in cultural practice and social affiliation."
+      },
+      {
+        "stage": "Early Adulthood",
+        "event": "The mocking of your Yoruba accent during a group presentation caused a significant drop in cultural practice and social affiliation."
+      },
+      {
+        "stage": "Established Life",
+        "event": "The mocking of your Yoruba accent during a team-building exercise caused a significant drop in cultural practice and social affiliation."
+      }
+    ],
+    "config": {
+      "origin_country": "Nigeria",
+      "origin_city": "Lagos",
+      "dest_country": "UK",
+      "dest_city": "London",
+      "language": "Yoruba",
+      "age": 16,
+      "anchor": 8,
+      "language_use": 7,
+      "homophily": 5,
+      "density": "Low",
+      "institutional": false,
+      "transmission": 3,
+      "biography": ""
+    },
+    "geo_context": "The Nigerian community in London is one of the largest African diasporas in the UK, with estimates suggesting around 200,000 Nigerians residing in the city, particularly concentrated in neighborhoods like Peckham, Lewisham, and Hackney. Key institutions serving this community include the Nigerian High Commission located in Victoria, various churches such as the Redeemed Christian Church of God, and cultural organizations like the Yoruba Cultural Association, which promote heritage language and traditions. In terms of cultural distance, the differences between Nigeria and the UK can be considered Moderate; while both countries exhibit a mix of individualism and collectivism, Nigeria leans more towards collectivism, with significant distinctions in family structure norms and attitudes toward ethnic identity, particularly given the multi-ethnic makeup of Nigeria compared to the UK's more homogeneous ethnic identity narratives. Assimilation pressure in London is relatively high due to the city's competitive economic landscape and social norms that often encourage conformity, yet there remains space for maintaining distinct cultural identities, particularly within established enclaves. Overall, the reception of Nigerian immigrants in London has been mixed; while there are instances of social friction and discrimination, many also find support through strong community networks and solidarity, particularly in cultural or religious settings, which can mitigate some of the challenges of integration.",
+    "geo_structured": {
+      "diaspora_presence": {
+        "population_estimate": "unknown",
+        "neighborhoods": [
+          "Peckham",
+          "Brixton",
+          "Southwark"
+        ],
+        "notes": "The Nigerian community in London has seen significant growth, contributing to the vibrancy of these neighborhoods."
+      },
+      "institutions": {
+        "restaurants": [
+          "Eko Restaurant",
+          "Lagos Kitchen"
+        ],
+        "places_of_worship": [
+          "The Redeemed Christian Church of God",
+          "Gospel Faith Mission International"
+        ],
+        "cultural_centers": [
+          "Nigerian Cultural Centre"
+        ],
+        "language_schools": [
+          "Yoruba Language School"
+        ],
+        "annual_events": [
+          "Nigeria Independence Day Celebration",
+          "London African Music Festival"
+        ]
+      },
+      "schools_and_universities": {
+        "k12_schools_with_diversity": [
+          "St. John\u2019s Church of England Primary School",
+          "Brixton Academy"
+        ],
+        "universities_with_cultural_groups": [
+          "University College London",
+          "King's College London"
+        ]
+      },
+      "similarities_to_origin": {
+        "architecture": "none notable",
+        "geography": "different",
+        "climate": "similar warm summers but colder winters",
+        "public_spaces": "none"
+      },
+      "assimilation_pressure": "Moderate pressure to adopt the host culture exists due to the diverse environment and urban lifestyle of London.",
+      "reception": "The host community generally receives immigrants from Nigeria positively, recognizing their contributions to the cultural landscape."
+    },
+    "tipping_point_occurred": false
+  },
+  "reflection": {
+    "narrative_summary": "You navigate the complexities of life in London, grappling with the tension between your Yoruba heritage and the pressures to assimilate into the city's competitive environment. Despite encountering teasing about your accent, you initially find solace in cultural practices and community gatherings. However, as you progress through adolescence and into early adulthood, the weight of conformity leads to a gradual disengagement from your cultural identity. Ultimately, you find yourself caught in a cycle of isolation and diminished cultural practice, struggling to maintain a connection to your roots.",
+    "turning_point": "The turning point occurs during early adulthood when a mocking comment about your accent in a university setting exacerbates your feelings of alienation, leading to a significant drop in social affiliation and cultural practice.",
+    "ranked_drivers": [
+      "1. Assimilation pressure: The competitive nature of London pushes you to conform and distance yourself from your Yoruba identity.",
+      "2. Low neighborhood cultural density: A lack of supportive cultural environments in your area contributes to feelings of isolation.",
+      "3. Absence of institutional support: The limited availability of resources and community organizations further hinders your ability to engage with your heritage."
+    ],
+    "counterfactual_a": "If Lagos had a lower diaspora density, such as in Birmingham, you might have experienced a score difference of approximately 10 points lower in social affiliation due to diminished community support.",
+    "counterfactual_b": "If you had chosen to pivot towards a different cultural engagement, such as actively participating in the Yoruba Cultural Association from the start, you might have seen a positive impact, potentially increasing your cultural practice score by 15 points.",
+    "preservation_verdict": "Critical Erosion: The ongoing pressures of assimilation and isolation have led to a significant decline in your cultural practices and social ties to the Yoruba community.",
+    "research_note": "This case illustrates the broader migration literature's findings that cultural preservation is often challenged in environments with high assimilation pressures and low community density."
+  },
+  "trajectory": [
+    {
+      "stage": "Baseline",
+      "scores": {
+        "language": 70,
+        "cultural_practice": 60,
+        "social_affiliation": 50,
+        "self_presentation": 65
+      }
+    },
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 70,
+        "cultural_practice": 60,
+        "social_affiliation": 50,
+        "self_presentation": 65
+      }
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 70,
+        "cultural_practice": 50,
+        "social_affiliation": 40,
+        "self_presentation": 55
+      }
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 70,
+        "cultural_practice": 45,
+        "social_affiliation": 30,
+        "self_presentation": 50
+      }
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 70,
+        "cultural_practice": 40,
+        "social_affiliation": 25,
+        "self_presentation": 50
+      }
+    }
+  ],
+  "metrics": {
+    "final_language": 70
+  }
+}

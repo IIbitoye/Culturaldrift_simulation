@@ -1,0 +1,254 @@
+{
+  "config": {
+    "origin_country": "Nigeria",
+    "origin_city": "Lagos",
+    "dest_country": "Canada",
+    "dest_city": "Toronto",
+    "language": "Yoruba",
+    "age": 9,
+    "anchor": 3,
+    "language_use": 3,
+    "homophily": 2,
+    "density": "Low",
+    "institutional": false,
+    "transmission": 2,
+    "biography": ""
+  },
+  "forced_choices": {},
+  "state": {
+    "scores": {
+      "language": 5,
+      "cultural_practice": 20,
+      "social_affiliation": 5,
+      "self_presentation": 10
+    },
+    "resilience_anchors": [
+      "connection to Nigerian organizations for support",
+      "ongoing use of Yoruba in limited contexts"
+    ],
+    "risk_factors": [
+      "lack of strong neighborhood ties",
+      "pressure to assimilate in professional environments"
+    ],
+    "personal_anchor_used": "none",
+    "stage_history": [
+      {
+        "stage": "Baseline",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 40,
+          "social_affiliation": 25,
+          "self_presentation": 35
+        },
+        "resilience_anchors": [
+          "connection to Nigerian organizations for support",
+          "ongoing use of Yoruba in limited contexts"
+        ],
+        "risk_factors": [
+          "lack of strong neighborhood ties",
+          "pressure to assimilate in professional environments"
+        ],
+        "community_density_assessment": "The low neighborhood cultural density suggests limited access to familiar cultural practices and social networks.",
+        "personal_anchor_used": "none",
+        "narrative": "You often find yourself navigating the crowded streets of Toronto, feeling the weight of two worlds. While the city offers a myriad of opportunities, the distance from your childhood in Lagos feels pronounced. You attend social gatherings at Nigerian restaurants, but the connections formed there seem fragile, often eclipsed by the demands of adapting to a new life. The warmth of your heritage language slips away in daily interactions, yet it lingers in the corners of your home, a reminder of where you came from."
+      },
+      {
+        "stage": "Arrival",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 40,
+          "social_affiliation": 25,
+          "self_presentation": 35
+        },
+        "primary_driver": "Pressure to assimilate in professional environments \u2014 you feel the need to adapt your speech and behavior to fit into Canadian norms.",
+        "narrative": "As you start school in Toronto, the first day feels overwhelming. You\u2019re placed in a classroom where your accent draws curious glances, and during recess, a classmate mocks the way you pronounce 'Yoruba.' You retreat into yourself, feeling the urge to soften your speech, pulling away from the language you once spoke freely at home. Although you attend a few family gatherings hosted by Nigerian organizations, you struggle to form lasting connections, often feeling like an outsider in both your new environment and within your own community. The unyielding pressure to fit in stifles your desire to express your heritage, creating a rift between who you are and who you feel you must become.",
+        "failure_log": "You were mocked for your accent on the first day of school, causing a drop in language confidence."
+      },
+      {
+        "stage": "Adolescence",
+        "scores": {
+          "language": 15,
+          "cultural_practice": 30,
+          "social_affiliation": 10,
+          "self_presentation": 20
+        },
+        "primary_driver": "Mocked for your accent during a group project \u2014 this event intensified your anxiety about using Yoruba in front of peers.",
+        "narrative": "In Toronto, the pressure to fit in has become unbearable. During a group project, a classmate not only ridiculed your accent but also suggested you 'speak properly' in English, leaving you feeling humiliated. As a result, you\u2019ve avoided speaking Yoruba even at home, fearing judgment from your siblings as well. The few Nigerian events you attended felt increasingly distant, with conversations circling around topics you struggled to engage with, amplifying your sense of isolation. You find yourself drifting further from the cultural practices that once connected you to your roots, leaving you feeling unmoored.",
+        "failure_log": "You were mocked for your accent during a group project, causing a significant drop in language confidence."
+      },
+      {
+        "stage": "Early Adulthood",
+        "scores": {
+          "language": 10,
+          "cultural_practice": 25,
+          "social_affiliation": 5,
+          "self_presentation": 15
+        },
+        "primary_driver": "Continued pressure to assimilate in professional environments \u2014 you feel increasing anxiety during interviews, leading you to suppress your accent and heritage.",
+        "narrative": "As you step into your early adulthood in Toronto, the pressure to fit in has intensified. During a job interview, you catch yourself consciously altering your accent, recalling your past experiences of ridicule. Conversations at Nigerian events now feel like a distant echo, with your attempts to engage met by awkward silences or disinterest. The few connections you had started to build within the Nigerian community have dwindled, leaving you feeling even more isolated. Each day, the pull to embrace your Yoruba roots feels weaker, as you navigate a world that demands conformity.",
+        "failure_log": "You felt compelled to suppress your accent during a job interview, causing a significant drop in language confidence."
+      },
+      {
+        "stage": "Established Life",
+        "scores": {
+          "language": 5,
+          "cultural_practice": 20,
+          "social_affiliation": 5,
+          "self_presentation": 10
+        },
+        "primary_driver": "Continued pressure to assimilate in professional environments \u2014 you face increasing anxiety during networking events, leading you to suppress your accent and cultural identity.",
+        "narrative": "In Toronto, as you settle into your early twenties, the pressure to conform in professional settings has become more pronounced. At a networking event, you overhear a colleague make a dismissive comment about accents, prompting you to retreat further into silence, avoiding any chance to speak Yoruba. Conversations with your Nigerian friends dwindle, as shared experiences seem overshadowed by a growing discomfort with your heritage. The cultural practices you once engaged in feel increasingly distant, leaving you feeling isolated and disconnected from both your roots and your peers.",
+        "failure_log": "You felt compelled to suppress your accent during a networking event, causing a significant drop in language confidence."
+      }
+    ],
+    "failure_log": [
+      {
+        "stage": "Arrival",
+        "event": "You were mocked for your accent on the first day of school, causing a drop in language confidence."
+      },
+      {
+        "stage": "Adolescence",
+        "event": "You were mocked for your accent during a group project, causing a significant drop in language confidence."
+      },
+      {
+        "stage": "Early Adulthood",
+        "event": "You felt compelled to suppress your accent during a job interview, causing a significant drop in language confidence."
+      },
+      {
+        "stage": "Established Life",
+        "event": "You felt compelled to suppress your accent during a networking event, causing a significant drop in language confidence."
+      }
+    ],
+    "config": {
+      "origin_country": "Nigeria",
+      "origin_city": "Lagos",
+      "dest_country": "Canada",
+      "dest_city": "Toronto",
+      "language": "Yoruba",
+      "age": 9,
+      "anchor": 3,
+      "language_use": 3,
+      "homophily": 2,
+      "density": "Low",
+      "institutional": false,
+      "transmission": 2,
+      "biography": ""
+    },
+    "geo_context": "The Nigerian community in Toronto is substantial, with estimates suggesting a population of approximately 50,000, primarily concentrated in neighborhoods such as Scarborough, Brampton, and parts of North York. These areas often feature cultural corridors where Nigerian restaurants, shops, and social gatherings thrive, particularly along Eglinton Avenue in Scarborough and in the downtown core. Institutions like the Nigerian Canadian Association serve as important hubs for cultural exchange and community support, while places of worship, such as the RCCG (Redeemed Christian Church of God), cater to the spiritual needs of the community. \n\nWhen assessing cultural distance, Nigeria and Canada diverge significantly on several sociological dimensions. Nigeria tends to emphasize collectivism, with strong family structures and communal ties, whereas Canada leans toward individualism, promoting personal autonomy and independence. Given these factors, I would rate the overall cultural distance as Moderate, as both nations exhibit various degrees of multiculturalism and acceptance of diversity, albeit through different lenses. \n\nThe pressure to assimilate in Toronto is relatively moderate; the city is known for its multicultural policies and diverse demographic landscape, allowing for a degree of cultural preservation among immigrant communities. However, there is still an underlying expectation for newcomers to blend into the social fabric, particularly in professional settings. Generally, Toronto\u2019s reception of Nigerian immigrants has been mixed, with documented instances of community solidarity and support through networks, but also challenges related to discrimination and social friction. The presence of well-established Nigerian organizations indicates a resilience in maintaining cultural identity amidst the pressures of assimilation.",
+    "geo_structured": {
+      "diaspora_presence": {
+        "population_estimate": "5,000-10,000",
+        "neighborhoods": [
+          "Scarborough",
+          "Etobicoke",
+          "North York"
+        ],
+        "notes": "The Nigerian community in Toronto has been growing, particularly in suburban areas."
+      },
+      "institutions": {
+        "restaurants": [
+          "Chop and Chat",
+          "Buka",
+          "The Suya Spot"
+        ],
+        "places_of_worship": [
+          "The Redeemed Christian Church of God",
+          "Living Faith Church",
+          "Christ Embassy"
+        ],
+        "cultural_centers": [
+          "Nigerian Canadian Association"
+        ],
+        "language_schools": [
+          "Yoruba Language School"
+        ],
+        "annual_events": [
+          "Nigerian Independence Day Celebration",
+          "Toronto Afrofest"
+        ]
+      },
+      "schools_and_universities": {
+        "k12_schools_with_diversity": [
+          "Scarborough Village Public School",
+          "Northview Heights Secondary School"
+        ],
+        "universities_with_cultural_groups": [
+          "University of Toronto",
+          "York University"
+        ]
+      },
+      "similarities_to_origin": {
+        "architecture": "none notable",
+        "geography": "different",
+        "climate": "similar warm summers but colder winters",
+        "public_spaces": "none"
+      },
+      "assimilation_pressure": "Moderate pressure to adopt host culture due to the multicultural environment in Toronto.",
+      "reception": "The host community generally receives immigrants from Nigeria positively, valuing their contributions to cultural diversity."
+    },
+    "tipping_point_occurred": false
+  },
+  "reflection": {
+    "narrative_summary": "You navigate the complexity of cultural identity as a Nigerian immigrant in Toronto, feeling increasingly disconnected from your Yoruba roots. Initially embraced by the vibrant Nigerian community, pressures of assimilation in professional environments lead you to suppress your heritage. Over time, your language skills diminish, and connections with both your Nigerian peers and cultural practices wane, leaving you feeling isolated. Despite the struggle, moments of resilience persist through limited engagement with Nigerian organizations and language.",
+    "turning_point": "The Adolescence stage marked a significant shift when mockery of your accent during a group project intensified your anxiety, leading you to retreat further from your cultural practices and language.",
+    "ranked_drivers": [
+      "1. Pressure to assimilate in professional environments \u2014 this ongoing pressure stifles your ability to express your cultural identity.",
+      "2. Mockery of your accent \u2014 these negative experiences create lasting impacts on your language confidence and willingness to engage with your heritage.",
+      "3. Limited neighborhood ties \u2014 the low density of Nigerian cultural connections exacerbates feelings of isolation and disconnection."
+    ],
+    "counterfactual_a": "If Toronto had a lower density of the Nigerian diaspora, similar to Calgary, you might experience a score difference of approximately 10 points lower on cultural practice due to fewer community support structures.",
+    "counterfactual_b": "Had you pivoted towards more active participation in organizations like the Nigerian Canadian Association from the start, it could have mitigated cultural erosion, potentially improving your cultural practice score by 15 points.",
+    "preservation_verdict": "Critical Erosion due to the pervasive assimilation pressures and diminishing engagement with cultural practices and language.",
+    "research_note": "This case reflects broader trends in migration literature highlighting how cultural identity can be significantly impacted by the dynamics of community support and assimilation pressures in host societies."
+  },
+  "trajectory": [
+    {
+      "stage": "Baseline",
+      "scores": {
+        "language": 30,
+        "cultural_practice": 40,
+        "social_affiliation": 25,
+        "self_presentation": 35
+      }
+    },
+    {
+      "stage": "Arrival",
+      "scores": {
+        "language": 30,
+        "cultural_practice": 40,
+        "social_affiliation": 25,
+        "self_presentation": 35
+      }
+    },
+    {
+      "stage": "Adolescence",
+      "scores": {
+        "language": 15,
+        "cultural_practice": 30,
+        "social_affiliation": 10,
+        "self_presentation": 20
+      }
+    },
+    {
+      "stage": "Early Adulthood",
+      "scores": {
+        "language": 10,
+        "cultural_practice": 25,
+        "social_affiliation": 5,
+        "self_presentation": 15
+      }
+    },
+    {
+      "stage": "Established Life",
+      "scores": {
+        "language": 5,
+        "cultural_practice": 20,
+        "social_affiliation": 5,
+        "self_presentation": 10
+      }
+    }
+  ],
+  "metrics": {
+    "final_language": 5
+  }
+}

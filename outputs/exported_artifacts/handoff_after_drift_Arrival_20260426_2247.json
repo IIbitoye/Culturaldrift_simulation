@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-04-26T22:31:13.790741",
+  "stage": "drift_1",
+  "snapshot_name": "after_drift_Arrival",
+  "json_state": {
+    "scores": {
+      "language": 45,
+      "cultural_practice": 60,
+      "social_affiliation": 35,
+      "self_presentation": 50
+    },
+    "resilience_anchors": [
+      "heritage language use at home strengthens cultural identity",
+      "community networks provide emotional support"
+    ],
+    "risk_factors": [
+      "low neighborhood cultural density limits social interactions",
+      "pressure to assimilate may challenge cultural practices"
+    ],
+    "personal_anchor": "",
+    "personal_anchor_used": "none",
+    "stage_history": [
+      {
+        "stage": "Arrival",
+        "scores": {
+          "language": 45,
+          "cultural_practice": 60,
+          "social_affiliation": 35,
+          "self_presentation": 50
+        },
+        "primary_driver": "pressure to assimilate, illustrated by your struggle to connect with peers while feeling the weight of cultural expectations.",
+        "narrative": "After moving from Lagos to Hawaii, you faced the challenge of adapting to a new school environment. A moment that stood out was during a group presentation, where your accent drew whispers and giggles from classmates, making you self-conscious about your Yoruba heritage. At home, you held onto your language while feeling increasingly isolated from peers, who seemed to effortlessly blend into the local culture. You attended occasional gatherings organized by the Nigerian Association of Hawaii, but the lack of familiarity left you feeling like an outsider in both communities.",
+        "failure_log": "Mocked for your accent during a group presentation at school."
+      }
+    ],
+    "failure_log": [
+      {
+        "stage": "Arrival",
+        "event": "Mocked for your accent during a group presentation at school."
+      }
+    ],
+    "pivot_choice": null,
+    "config": {
+      "origin_country": "nigeria",
+      "origin_city": "lagos",
+      "dest_country": "united states",
+      "dest_city": "hawaii",
+      "language": "yoruba",
+      "age": 12,
+      "anchor": 7,
+      "language_use": 6,
+      "homophily": 5,
+      "density": "Low",
+      "institutional": false,
+      "transmission": 6,
+      "biography": ""
+    },
+    "geo_context": "The Nigerian community in Hawaii is relatively small, with estimates suggesting a few thousand individuals, primarily concentrated in urban areas such as Honolulu, where they often settle due to job opportunities and community networks. There are no well-defined neighborhoods specifically for Nigerians, but cultural corridors can be found in areas where diverse immigrant groups converge, promoting interaction and potential cultural exchange. Institutions like the Nigerian Association of Hawaii serve as a focal point for community activities, providing a sense of belonging through cultural events and gatherings. The cultural distance between Nigeria and the United States is assessed as moderate; while both societies value family and community, Nigeria is more collectivist, with stronger ties to extended family structures and communal living, contrasting with the individualistic tendencies in the U.S. \n\nIn terms of assimilation pressure, Hawaii\u2019s unique demographic landscape, which includes a significant Asian and Pacific Islander population, provides a relatively welcoming environment for maintaining distinct cultural identities, though there remains an underlying expectation for immigrants to adapt to mainstream social norms. The reception of Nigerian immigrants in Hawaii appears to be generally positive, with reports indicating a mix of community solidarity and occasional challenges related to cultural misunderstandings, but overall, many Nigerians find avenues for connection and support within the broader immigrant community. This environment allows for the preservation of heritage, such as the Yoruba language, while navigating life in a new cultural context."
+  }
+}

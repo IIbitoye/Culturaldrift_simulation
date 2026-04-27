@@ -1,0 +1,357 @@
+{
+  "community": {
+    "scores": {
+      "language": 60,
+      "cultural_practice": 50,
+      "social_affiliation": 52,
+      "self_presentation": 20
+    },
+    "resilience_anchors": [
+      "family ties",
+      "community support"
+    ],
+    "risk_factors": [
+      "economic competition",
+      "social integration pressures"
+    ],
+    "personal_anchor_used": "none",
+    "stage_history": [
+      {
+        "stage": "Baseline",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 50,
+          "social_affiliation": 55,
+          "self_presentation": 50
+        },
+        "resilience_anchors": [
+          "family ties",
+          "community support"
+        ],
+        "risk_factors": [
+          "economic competition",
+          "social integration pressures"
+        ],
+        "community_density_assessment": "Houston's neighborhoods provide a moderate level of support for maintaining cultural identity amidst diverse influences.",
+        "personal_anchor_used": "none",
+        "narrative": "You navigate the streets of Houston, feeling the mix of familiarity and novelty in your surroundings. In the evenings, you hear Yoruba spoken in snippets around you, a reminder of home, but the larger world feels different. Occasionally, you gather with peers in local parks, sharing stories that bridge your past with the present. As you move between school and community events, you sense the balancing act of staying connected to your roots while adapting to a new life."
+      },
+      {
+        "stage": "Arrival",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 50,
+          "social_affiliation": 50,
+          "self_presentation": 50
+        },
+        "primary_driver": "social integration pressures; feeling the need to adapt to American customs while trying to maintain your Yoruba identity.",
+        "narrative": "After your arrival in Houston, you faced a moment that made you reconsider your connection to Yoruba. During a class presentation, a classmate mocked your accent, making you acutely aware of the differences that set you apart. The laughter echoed in your mind, prompting you to think about how to adjust your speech to fit in better. Simultaneously, you felt a pull towards a local Nigerian restaurant where the familiar taste of jollof rice brought a fleeting sense of home, yet you hesitated to invite friends, fearing their response. This tug-of-war between wanting to belong and holding onto your heritage defined your first year.",
+        "failure_log": "During a class presentation, a classmate mocked your accent."
+      },
+      {
+        "stage": "Adolescence",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 50,
+          "social_affiliation": 45,
+          "self_presentation": 40
+        },
+        "primary_driver": "social integration pressures; feeling the need to adapt further to American customs while struggling with your Yoruba identity.",
+        "narrative": "As you navigated the complexities of adolescence in Houston, you faced a critical moment during a class group project. When it came time to present, you noticed your classmates whispering and laughing, and it struck you that they were mocking your pronunciation of English. This incident prompted you to further suppress your Yoruba accent, leaving you feeling more disconnected from your roots. You also hesitated to attend community events, worrying that you wouldn't fit in, which made you feel isolated from both your heritage and your peers. This struggle between fitting in and holding onto your identity became increasingly challenging.",
+        "failure_log": "During a class group project, classmates mocked your pronunciation of English.",
+        "user_choices": [
+          "Cultural Youth Group"
+        ]
+      },
+      {
+        "stage": "Early Adulthood",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 55,
+          "social_affiliation": 40,
+          "self_presentation": 30
+        },
+        "primary_driver": "social integration pressures; the need to conform to American norms intensified while feeling increasingly distanced from your Yoruba identity.",
+        "narrative": "During your early adulthood in Houston, you attended a friend's birthday party where the conversation flowed in rapid English, and you struggled to keep up. When you attempted to share a story from home, a group of friends interrupted, telling you that it was too long and complicated. The laughter that followed felt like a dagger, reminding you of your difference and pushing you further into silence. As your connections with your peers dwindled, you found yourself attending fewer community events, feeling that you no longer belonged in either world. This disconnection left you questioning your identity more than ever.",
+        "failure_log": "At a friend's birthday party, you were mocked for sharing a story that felt too complex for your peers.",
+        "user_choices": [
+          "Founding a Campus Org"
+        ]
+      },
+      {
+        "stage": "Established Life",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 50,
+          "social_affiliation": 40,
+          "self_presentation": 15
+        },
+        "primary_driver": "social integration pressures; the need to conform to American norms intensified while feeling increasingly distanced from your Yoruba identity.",
+        "narrative": "In Houston during your established life stage, you attended a networking event for young professionals in your field. While you tried to engage in conversation, you felt the weight of your accent and the cultural references that seemed lost on your peers. A moment came when a colleague jokingly suggested you should 'Americanize' your name for easier pronunciation, prompting a wave of self-doubt. This incident amplified your discomfort with self-presentation and pushed you further from sharing your heritage. As you withdrew from social gatherings, you began to question whether you had any place in either world.",
+        "failure_log": "At a networking event, a colleague suggested you should 'Americanize' your name, triggering a significant drop in self-presentation.",
+        "user_choices": [
+          "Cultural Mentorship"
+        ]
+      }
+    ],
+    "failure_log": [
+      {
+        "stage": "Arrival",
+        "event": "During a class presentation, a classmate mocked your accent."
+      },
+      {
+        "stage": "Adolescence",
+        "event": "During a class group project, classmates mocked your pronunciation of English."
+      },
+      {
+        "stage": "Early Adulthood",
+        "event": "At a friend's birthday party, you were mocked for sharing a story that felt too complex for your peers."
+      },
+      {
+        "stage": "Established Life",
+        "event": "At a networking event, a colleague suggested you should 'Americanize' your name, triggering a significant drop in self-presentation."
+      }
+    ],
+    "config": {
+      "origin_country": "Nigeria",
+      "origin_city": "Lagos",
+      "dest_country": "USA",
+      "dest_city": "Houston",
+      "language": "Yoruba",
+      "age": 14,
+      "anchor": 6,
+      "language_use": 5,
+      "homophily": 5,
+      "density": "Medium",
+      "institutional": false,
+      "transmission": 5,
+      "biography": ""
+    },
+    "geo_context": "Houston hosts a significant Nigerian community, primarily concentrated in neighborhoods such as Third Ward, Alief, and areas around the University of Houston. Estimates suggest that there are approximately 30,000 to 40,000 Nigerians in the city, with many residing in these enclaves, which serve as cultural hubs for social interaction and community events. Institutions like the Nigerian American Multicultural Council and places of worship such as the Redeemed Christian Church of God provide essential support and cultural continuity, while restaurants like Buka and Iya's Kitchen offer familiar cuisine that helps maintain ties to their heritage. \n\nIn terms of cultural distance, the differences between Nigeria and the USA can be considered moderate. While both societies value familial connections, the United States leans more towards individualism, and there are notable contrasts in religious practices and attitudes toward ethnic identity. Houston's diverse demographic landscape creates a relatively tolerant environment, allowing for the maintenance of distinct cultural identities; however, economic competition and social integration pressures can encourage quicker assimilation as well. Overall, the city demonstrates a mixed reception to Nigerian immigrants, with many experiencing community solidarity and support, though some may also encounter social friction or discrimination in their daily lives.",
+    "geo_structured": {
+      "diaspora_presence": {
+        "population_estimate": "5,000-10,000",
+        "neighborhoods": [
+          "Southwest Houston",
+          "Sugar Land"
+        ],
+        "notes": "The Nigerian community in Houston has been growing steadily, particularly in areas with established African businesses."
+      },
+      "institutions": {
+        "restaurants": [
+          "Buka Restaurant",
+          "Chinelo's Restaurant"
+        ],
+        "places_of_worship": [
+          "The Redeemed Christian Church of God - Jesus House Houston",
+          "St. Andrew's Episcopal Church"
+        ],
+        "cultural_centers": [
+          "Nigerian Cultural and Heritage Center"
+        ],
+        "language_schools": [
+          "Yoruba Language School"
+        ],
+        "annual_events": [
+          "Nigeria Independence Day Celebration",
+          "Houston African Festival"
+        ]
+      },
+      "schools_and_universities": {
+        "k12_schools_with_diversity": [
+          "Fort Bend ISD",
+          "Houston Independent School District"
+        ],
+        "universities_with_cultural_groups": [
+          "University of Houston",
+          "Texas Southern University"
+        ]
+      },
+      "similarities_to_origin": {
+        "architecture": "some modern housing styles reflect contemporary Nigerian designs",
+        "geography": "different",
+        "climate": "similar warm summers but generally milder winters",
+        "public_spaces": "none"
+      },
+      "assimilation_pressure": "Moderate; the presence of established communities provides support, yet there is still a push to integrate into the wider American culture.",
+      "reception": "Generally positive, with many host community members appreciating the cultural contributions of Nigerian immigrants."
+    },
+    "tipping_point_occurred": true
+  },
+  "assimilation": {
+    "scores": {
+      "language": 30,
+      "cultural_practice": 18,
+      "social_affiliation": 20,
+      "self_presentation": 50
+    },
+    "resilience_anchors": [
+      "language skills support social connections",
+      "community engagement fosters cultural practices"
+    ],
+    "risk_factors": [
+      "pressure to assimilate can lead to cultural loss",
+      "discrimination impacts social integration"
+    ],
+    "personal_anchor_used": "None",
+    "stage_history": [
+      {
+        "stage": "Baseline",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 50,
+          "social_affiliation": 50,
+          "self_presentation": 65
+        },
+        "resilience_anchors": [
+          "language skills support social connections",
+          "community engagement fosters cultural practices"
+        ],
+        "risk_factors": [
+          "pressure to assimilate can lead to cultural loss",
+          "discrimination impacts social integration"
+        ],
+        "community_density_assessment": "Houston's Nigerian community provides a nuanced space for maintaining connections while navigating diverse influences.",
+        "personal_anchor_used": "None",
+        "narrative": "You navigate the bustling streets of Houston, feeling the weight of both excitement and uncertainty. A mix of Yoruba phrases spills from your lips as you engage with friends, balancing your heritage with the new rhythms of American life. On weekends, you find solace in gatherings that echo the warmth of home, yet the looming pressure to fit into a different society often casts a shadow. Each day, you reassess where you stand between two worlds, seeking to harmonize your past with your present."
+      },
+      {
+        "stage": "Arrival",
+        "scores": {
+          "language": 60,
+          "cultural_practice": 50,
+          "social_affiliation": 50,
+          "self_presentation": 65
+        },
+        "primary_driver": "Assimilation pressure due to diverse demographics in Houston, impacting your social integration.",
+        "narrative": "After your move from Lagos to Houston, you faced the challenge of adjusting to a new school environment. One afternoon, during lunch, a group of classmates laughed when you mispronounced a word in English, making you second-guess your language skills. Simultaneously, you attended a Nigerian Independence Day celebration, where the familiarity of Yoruba songs and traditional attire felt like a comfort, yet you noticed how some peers distanced themselves from these practices. This tug-of-war between embracing your heritage and fitting in with your new surroundings left you navigating a complex social landscape, balancing pride with the desire to belong.",
+        "failure_log": ""
+      },
+      {
+        "stage": "Adolescence",
+        "scores": {
+          "language": 45,
+          "cultural_practice": 40,
+          "social_affiliation": 45,
+          "self_presentation": 60
+        },
+        "primary_driver": "Pressure to assimilate intensified after a classmate mocked your Yoruba accent during a group project, leading you to retreat from speaking your heritage language.",
+        "narrative": "After the incident in class where a peer laughed at your Yoruba accent, you felt a sharp withdrawal from using your heritage language, even with friends. The following weekend, when you attended a Nigerian Independence Day celebration, the joy of the familiar songs was overshadowed by the realization that you hadn\u2019t practiced Yoruba in weeks. You found yourself standing on the sidelines, watching others embrace their cultural attire while you hesitated to join in. This moment marked a deeper struggle with your identity as you balanced the desire to fit in at school with the pull of your Nigerian roots in Houston.",
+        "failure_log": "Mocked for your Yoruba accent during a group project led to a significant drop in language use.",
+        "user_choices": [
+          "The Accent Filter"
+        ]
+      },
+      {
+        "stage": "Early Adulthood",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 30,
+          "social_affiliation": 35,
+          "self_presentation": 50
+        },
+        "primary_driver": "Intense assimilation pressure as peers increasingly prioritize American cultural norms over heritage, leading to a retreat from your identity.",
+        "narrative": "After completing high school in Houston, you found yourself in a college environment that felt overwhelmingly focused on American culture. One evening, while out with friends, a casual discussion about food turned into a lighthearted mocking of traditional Nigerian dishes, making you hesitate to share your favorite recipes. Simultaneously, you attended a Yoruba cultural event, but the sense of familiarity felt distant; you struggled to engage with the language as it felt more foreign with each passing day. This disconnect highlighted a growing gap between your heritage and the new life you were trying to embrace, leaving you feeling like a stranger in both worlds.",
+        "failure_log": "Significant drop in language use and cultural practice after peers mocked traditional Nigerian dishes, leading to increased assimilation pressure.",
+        "user_choices": [
+          "The Resume Name\u2011Change"
+        ]
+      },
+      {
+        "stage": "Established Life",
+        "scores": {
+          "language": 30,
+          "cultural_practice": 30,
+          "social_affiliation": 35,
+          "self_presentation": 50
+        },
+        "primary_driver": "The pressure to assimilate intensified as you notice peers increasingly adopting American cultural norms, further distancing you from your heritage.",
+        "narrative": "In Houston, a dinner gathering with your friends took an unexpected turn when a lighthearted conversation about food led to mocking comments about traditional Nigerian dishes. This incident made you retreat further from sharing your culinary favorites, feeling a growing disconnect from your Nigerian identity. Later, while scrolling through social media, you stumbled upon a video of a Yoruba cultural festival, but instead of feeling connected, you realized how distant the language and practices had become for you. The gap between your heritage and the life you\u2019re trying to build in America feels wider, leaving you in a constant struggle to reconcile both worlds.",
+        "failure_log": "Mocked for traditional Nigerian dishes during a dinner gathering led to a significant drop in cultural practice.",
+        "user_choices": [
+          "Complete Assimilation"
+        ]
+      }
+    ],
+    "failure_log": [
+      {
+        "stage": "Adolescence",
+        "event": "Mocked for your Yoruba accent during a group project led to a significant drop in language use."
+      },
+      {
+        "stage": "Early Adulthood",
+        "event": "Significant drop in language use and cultural practice after peers mocked traditional Nigerian dishes, leading to increased assimilation pressure."
+      },
+      {
+        "stage": "Established Life",
+        "event": "Mocked for traditional Nigerian dishes during a dinner gathering led to a significant drop in cultural practice."
+      }
+    ],
+    "config": {
+      "origin_country": "Nigeria",
+      "origin_city": "Lagos",
+      "dest_country": "USA",
+      "dest_city": "Houston",
+      "language": "Yoruba",
+      "age": 14,
+      "anchor": 6,
+      "language_use": 5,
+      "homophily": 5,
+      "density": "Medium",
+      "institutional": false,
+      "transmission": 5,
+      "biography": ""
+    },
+    "geo_context": "The Nigerian community in Houston is significant, with estimates suggesting around 40,000 to 50,000 individuals, concentrated primarily in neighborhoods such as Third Ward and West Houston. These areas often serve as cultural corridors where residents can connect with their heritage. Important institutions include the Nigerian American Multicultural Council, which fosters community engagement, and various Nigerian churches, such as the Redeemed Christian Church of God, which serve both spiritual and social functions. The cultural distance between Nigeria and the USA can be assessed as Moderate; while both societies share some individualistic traits, Nigeria tends to emphasize collectivism, particularly in family structures and community ties. The pressure to assimilate in Houston is relatively strong due to its diverse demographics and economic opportunities, yet the city also accommodates cultural diversity, allowing for the preservation of distinct identities. Generally, Houston has been welcoming to Nigerian immigrants, with documented instances of community solidarity and networking, though challenges such as occasional discrimination and social friction exist. Overall, the Nigerian diaspora in Houston navigates a complex landscape that balances the need for integration with the desire to maintain cultural roots.",
+    "geo_structured": {
+      "diaspora_presence": {
+        "population_estimate": "5,000-10,000",
+        "neighborhoods": [
+          "Southwest Houston",
+          "Alief",
+          "Missouri City"
+        ],
+        "notes": "The Nigerian community in Houston is growing, with a notable concentration in the Southwest area."
+      },
+      "institutions": {
+        "restaurants": [
+          "Buka Restaurant",
+          "Mama's African Kitchen"
+        ],
+        "places_of_worship": [
+          "The Redeemed Christian Church of God, Jesus House Houston",
+          "Winners Chapel International"
+        ],
+        "cultural_centers": [
+          "Nigerian American Multicultural Council"
+        ],
+        "language_schools": [
+          "Yoruba Language School of Houston"
+        ],
+        "annual_events": [
+          "Nigeria Independence Day Celebration",
+          "African Cultural Alliance of North America Events"
+        ]
+      },
+      "schools_and_universities": {
+        "k12_schools_with_diversity": [
+          "Alief Hastings High School",
+          "Sharpstown High School"
+        ],
+        "universities_with_cultural_groups": [
+          "University of Houston",
+          "Texas Southern University"
+        ]
+      },
+      "similarities_to_origin": {
+        "architecture": "none notable",
+        "geography": "different",
+        "climate": "similar warm summers but milder winters",
+        "public_spaces": "none"
+      },
+      "assimilation_pressure": "Moderate pressure to adopt the host culture due to the diversity of Houston and the presence of established communities.",
+      "reception": "The host community generally receives immigrants from Nigeria positively, appreciating their contributions to the cultural fabric of the city."
+    },
+    "tipping_point_occurred": true
+  }
+}

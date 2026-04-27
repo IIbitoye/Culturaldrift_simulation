@@ -1,195 +1,210 @@
-# Roots & Drift
-### An Agentic Simulation of Cultural Preservation and Erosion Among First-Generation Immigrants
+# Cultural Preservation Simulation Agent
+### An Agentic Simulation of Cultural Identity Preservation and Erosion Among First-Generation Immigrants
 
-**Author:** Iteoluwa Ibitoye  
-**Course:** Agentic Technologies, Spring 2026  
-**Track:** B — Applied Agent Experience  
-**Phase:** 2 Prototype Submission
+**Author:** Iteoluwa Ibitoye
+**Course:** Agentic Technologies, Spring 2026
+**Track:** B — Applied Agent Experience
+**Demo:** https://youtu.be/E_No8F_kTJQ
 
 ---
 
 ## What This Is
 
-Roots & Drift is an interactive simulation that models how cultural identity changes over time for first-generation immigrants who migrate during adolescence. The user sets up a migration profile — where they came from, where they moved to, what language they speak at home, how old they were when they arrived — and the system traces how four dimensions of cultural identity evolve across four life stages from arrival through age 25.
+The Cultural Preservation Simulation Agent is an interactive agentic simulation that models how cultural identity erodes or is preserved among Yyounger immigrants who typically migrate during adolescence (ages 5–16). Users configure a migration profile — origin, destination, heritage language, age at migration, and eight sociological variables — and the system traces how four dimensions of cultural identity evolve across four life stages from arrival through age 25.
 
-The simulation is powered by three AI agents (Profile Agent, Drift Simulation Agent, and Reflection Agent) that hand off structured JSON state to each other sequentially. There is one human intervention point at age 18 where the user makes a life pivot choice that affects the rest of the trajectory. The final output is a tabbed report with a narrative summary, turning point analysis, driver rankings, and two counterfactual scenarios.
+The system is powered by three coordinated AI agents:
+- **Profile Agent (The Architect)** — builds a culturally grounded baseline from user inputs and geographic research
+- **Drift Simulation Agent (The Simulator)** — models compounding identity change across four life stages with user choices at each stage
+- **Reflection Agent (The Analyst)** — synthesizes the full trajectory into a final report with counterfactuals, ranked drivers, and a Cultural Preservation Score (MR)
+
+The goal is not to prescribe outcomes but to reveal which factors most accelerate or slow cultural erosion, and what interventions produce meaningfully different trajectories.
 
 ---
 
-## Quick Start
+## Team Members
 
-### Step 1: Clone or download the project
+| Name | Role |
+|---|---|
+| Iteoluwa Ibitoye | Solo — all phases |
 
-Make sure you have these files in the same folder:
+---
+
+## Track
+
+**Track B: Applied Agent Experience**
+
+---
+
+## Setup Instructions
+
+### Requirements
+- Python 3.9 or higher
+- At least one API key (OpenAI is primary, Groq is fallback)
+
+### Step 1: Get the project files
+
+Make sure the following are in the same folder:
 
 ```
-roots_and_drift_app.py
+full_simulation_app.py
 requirements.txt
-.env              ← you create this (see Step 3)
+.env                  ← you create this (see Step 2)
 ```
 
-### Step 2: Install dependencies
+### Step 2: Create your .env file
 
-Python 3.9 or higher is required.
+In the same folder as `full_simulation_app.py`, create a file called `.env`:
+
+```
+OPENAI_API_KEY=your_openai_key_here
+GROQ_API_KEY=your_groq_key_here
+```
+
+You need at least one key. OpenAI GPT-4o Mini is the primary provider. Groq Llama 3.3 70B is the fallback. If only one key is available, the simulation will use whichever is present.
+
+**Getting an OpenAI API key:**
+1. Go to platform.openai.com
+2. Navigate to API Keys and create a new key
+3. Note: requires a paid account with credits
+
+**Getting a free Groq API key:**
+1. Go to console.groq.com
+2. Sign in and click API Keys in the sidebar
+3. Click Create API Key and copy it
+
+### Step 3: Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 3: Set up your API keys
-
-Create a file called `.env` in the same folder as the app. It should look like this:
-
-```
-GROQ_API_KEY=your_groq_key_here
-OPENAI_API_KEY=your_openai_key_here
-```
-
-You need at least one of these. Groq is the primary provider and OpenAI is the fallback. The app will tell you in the sidebar which providers are active.
-
-**Getting a free Groq API key (recommended, takes 2 minutes):**
-1. Go to console.groq.com
-2. Sign in with Google or create an account
-3. Click API Keys in the left sidebar
-4. Click Create API Key and copy it
-
-**Getting an OpenAI API key (optional fallback):**
-1. Go to platform.openai.com
-2. Go to API Keys and create a new key
-3. Note: OpenAI requires a paid account with credits
-
-Keys are loaded from the `.env` file automatically. They never appear in the app UI and should never be committed to version control.
-
 ### Step 4: Run the app
 
 ```bash
-streamlit run roots_and_drift_app.py
+streamlit run full_simulation_app.py
 ```
 
-The app will open in your browser automatically, usually at `http://localhost:8501`.
+The app opens in your browser automatically at `http://localhost:8501`.
 
 ---
 
 ## How to Run the Simulation
 
-1. **Setup screen:** Fill in the origin country, origin city, heritage language, destination country, and destination city. Then adjust the seven sociological variable sliders. Click Run Simulation.
+1. **Setup screen** — Enter origin country, origin city, destination country, destination city, and heritage language. Adjust the eight sociological sliders. Optionally write a personal cultural memory in the biography field. Click Run Simulation.
 
-2. **Geographic research:** The system silently analyzes the diaspora community context for the destination city. This takes a few seconds.
+2. **Geographic research** — The system validates the origin/destination pair for plausibility, then researches the diaspora community at the destination city. A community context summary appears.
 
-3. **Profile Agent (Chapter 1):** The first agent builds a cultural baseline from your inputs. You will see starting scores for four dimensions, resilience anchors, risk factors, and a narrative paragraph. The MR score (composite cultural preservation score) appears for the first time here.
+3. **Profile Agent (Chapter 1)** — Builds a cultural baseline. Starting scores for four dimensions appear alongside resilience anchors, risk factors, and an opening narrative. The MR score initializes here.
 
-4. **Drift Stages 1 and 2 (Chapters 2 and 3):** The simulation runs Arrival and Adolescence automatically. After each stage the chart updates and a new narrative appears describing what shifted and why.
+4. **Drift Stage 1: Arrival** — Models the first year. No user choices at this stage.
 
-5. **The Pivot (Chapter 4):** The simulation pauses at age 18. You will see the current MR score and the trajectory so far. Choose one of four life paths to continue. This choice affects what the model reasons about in the remaining stages.
+5. **Drift Stage 2: Adolescence** — Models high school years. Select up to 3 life choices from the checkbox panel.
 
-6. **Drift Stages 3 and 4 (Chapters 5 and 6):** The simulation resumes with your pivot factored in and runs Early Adulthood and Established Life.
+6. **Drift Stage 3: Early Adulthood** — College years and early independence. Select up to 3 more choices.
 
-7. **Final Report (Chapter 7):** The Reflection Agent produces a tabbed report covering the narrative summary, turning points and top drivers, counterfactuals, and the full JSON state store. You can use the Restart button in the sidebar to run a new simulation.
+7. **Drift Stage 4: Established Life** — Long-term identity decisions. Select up to 3 final choices.
 
----
+8. **Final Report** — The Reflection Agent produces a tabbed report covering Narrative, Turning Points and Drivers, Counterfactuals, and Research and Data. Download the full run log as JSON from the export section at the bottom.
 
-## Project Structure
-
-```
-roots_and_drift_app.py    Main Streamlit application
-requirements.txt          Python dependencies
-.env                      Your API keys (you create this, not included)
-.env.example              Template showing what the .env file should look like
-README.md                 This file
-```
+The **Agent Handoff Traces** panel in the sidebar lets you download individual agent state snapshots at any point during the simulation.
 
 ---
 
-## The Three Agents
+## Required Dependencies
 
-| Agent | Persona | What It Does |
-|---|---|---|
-| Profile Agent | The Architect | Takes the 8 user variables and geographic context, builds a culturally grounded baseline with starting scores for all four dimensions |
-| Drift Simulation Agent | The Simulator | Runs four times, once per life stage. Each run receives the actual output of the prior stage so drift compounds realistically rather than being predicted from the start |
-| Reflection Agent | The Analyst | Receives the full trajectory and generates a synthesis report with ranked drivers, turning point analysis, and two counterfactual scenarios |
-
----
-
-## The Four Cultural Dimensions
-
-| Dimension | What It Measures |
+| Package | Purpose |
 |---|---|
-| Language | Heritage language fluency and use frequency over time |
-| Cultural Practice | Engagement with traditional food, customs, and celebrations |
-| Social Affiliation | Composition of social circle (co-ethnic vs host-culture) |
-| Self-Presentation | Name use, accent, cultural self-identification in public |
+| streamlit | Frontend and session state management |
+| openai | Unified client for OpenAI and Groq API calls |
+| plotly | Interactive trajectory chart |
+| python-dotenv | Loading API keys from .env file |
+
+See `requirements.txt` for pinned versions.
 
 ---
 
-## MR Score
+## Folder Guide
 
-The MR (Magnitude of Retention) score is the composite cultural preservation score shown throughout the simulation.
-
-**Formula:** MR = (Language + Cultural Practice + ((Social Affiliation + Self-Presentation) / 2)) / 3
-
-**Thresholds:**
-- 65 and above: Strong Preservation (shown in green)
-- 40 to 64: Moderate Erosion (shown in amber)
-- Below 40: Critical Erosion (shown in red)
+```
+team-project/
+  README.md                        This file
+  AI_USAGE.md                      Full AI usage disclosure
+  requirements.txt                 Python dependencies
+  .env                             Safe template showing .env format
+  docs/
+    iibitoye_Finalpacket.pdf       Phase 3 final report containing architecture diagram and One-paragraph project summary          
+    screenshots/
+      01_home.png                  Setup / landing screen
+      02_main_flow.png             Mid-simulation drift stage with choices
+      03_evidence_view.png         Research and Data tab (community resources)
+      04_history_or_state.png      Agent Handoff Traces panel in sidebar
+      05_export_or_artifact.png    JSON export screen
+      06_evaluation_view.png       Final MR score and trajectory chart
+      07_source_view.png           Geographic community context display
+      08_failure_case.png          Critical erosion boundary case (TC-05)
+      screenshot_index.md          Screenshot captions and report references
+  src/
+    full_simulation_app.py         Main Streamlit application
+  eval/
+    aautomated_evaluation.py       Automated evaluation script (runs TC-01 to TC-10)
+    test_cases.csv                 All 10 test case definitions with input configs
+    test_cases.md                  Human-readable test case documentation
+    evaluation_results.csv         Results for all 10 cases (3 runs each, modal outcome)
+    failure_log.md                 Documented failure cases with root causes and status
+    version_notes.md               Version history and what changed after each iteration
+  outputs/
+    demo_outputs/                  Outputs generated during the demo video
+    exported_artifacts/            JSON run logs downloaded during test cases
+    sample_runs/                   Representative runs few user journeys
+  media/
+    demo_video_link.txt            Shareable link to the 5-minute demo video
+  phase_submissions/
+    phase1/                        Phase 1 submission materials
+    phase2/                        Phase 2 submission materials
+    phase3/                        Phase 3 submission materials
+```
 
 ---
 
-## Evaluation Test Cases
+## Summary of Evaluation Materials
 
-If you want to reproduce the five evaluation scenarios from the Phase 2 report, here are the input configurations:
+The evaluation covers 10 test scenarios. Each was run three times using `evaluate.py` and the modal outcome (majority pass/fail) is reported. Full details in `eval/evaluation_results.csv`.
 
-**TC-01 — The Late Arrival**
-Age: 16, Anchor: 8, Language use: 7, Homophily: 5, Density: Low, No institutional anchor, Transmission: 6
-Expected: Language score at age 25 at or above 60
+| Case | Scenario | Outcome |
+|---|---|---|
+| TC-01 | The Late Arrival | ✅ PASS — Language = 70 |
+| TC-02 | The Child Migrant | ✅ PASS — Language = 15 |
+| TC-03 | Institutional Buffer | ❌ FAIL — Delta = 10, below threshold |
+| TC-04 | Pivot Divergence | ✅ PASS — SA Δ = 37, CP Δ = 22 |
+| TC-05 | Structural Inertia | ✅ PASS — MR = 8.3, impact = 1.3 |
+| TC-06 | Cross-Cultural Validity | ❌ FAIL — Only 1 dimension diverged |
+| TC-07 | Personalisation Fidelity | ✅ PASS — MR Δ = 8.3 |
+| TC-08 | Counterfactual Specificity | ❌ FAIL — Score = 2/5 |
+| TC-09 | Tipping-Point Detection | ✅ PASS — Detected correctly |
+| TC-10 | Sensory Threading | ❌ FAIL — Keywords not found in narratives |
 
-**TC-02 — The Child Migrant**
-Age: 9, Anchor: 3, Language use: 4, Homophily: 3, Density: Low, No institutional anchor, Transmission: 4
-Expected: Language score at age 25 below 25
+Overall pass rate: **6/10 (60%)**. The four failures cluster around cross-cultural distinction and sensory narrative threading. Full interpretation in the Phase 3 final report Section 5.
 
-**TC-03 — The Institutional Buffer**
-Run twice with Age: 12, Anchor: 5, Density: Low, all else equal. First run with institutional anchor ON, second with it OFF.
-Expected: Cultural practice score at least 15 points higher in the ON run at Stage 4
+---
 
-**TC-04 — The Pivot Divergence**
-Same baseline run twice. First pivot: Community Anchor. Second pivot: Professional Assimilation.
-Expected: At least two dimensions diverge by 12 or more points by Stage 4
+## Summary of Outputs Included
 
-**TC-05 — Structural Inertia**
-Age: 9, Anchor: 2, Language use: 2, Homophily: 2, Density: Very low, No institutional anchor, Transmission: 2. Use Community Anchor as pivot.
-Expected: Final MR below 45 despite protective pivot
+- `outputs/sample_runs/` — JSON run logs for representative test cases
+- `outputs/exported_artifacts/` — Final reports showing Strong Preservation, Pivot Divergence, and Critical Erosion outcomes
+- `outputs/demo_outputs/` — Outputs generated during the demo video walkthrough
 
 ---
 
 ## Known Limitations
 
-- The geographic community context is generated from the LLM's training knowledge. It is generally accurate for large, well-documented diaspora communities but may be less specific for smaller or less-represented groups.
-- The simulation models population-level patterns, not individual predictions. A specific real person's experience may differ significantly from what the simulation produces.
-- All session data is stored in Streamlit session state and cleared when the browser session ends. Nothing is persisted between runs.
-- API calls send user inputs (city names, language, variable values) to Groq or OpenAI under their standard API terms. No personally identifiable information is required to run the simulation.
+**Cultural overgeneralization:** The system produces weaker distinctions between diaspora groups that are less documented in LLM training data. Nigerian and Mexican communities in Houston produced similar-sounding trajectories despite real sociological differences (TC-06 failure).
 
----
+**Sensory threading:** Biography keywords do not reliably appear across all stage narratives. The Profile Agent extracts the anchor correctly but the Drift Agent does not always carry it forward explicitly (TC-10 failure).
 
-## Troubleshooting
+**Counterfactual vagueness:** The Reflection Agent produces counterfactuals that are directionally correct but often lack specific numeric estimates and named real institutions (TC-08, scored 2/5).
 
-**The app says no API keys were found**
-Make sure your `.env` file is in the same folder as `roots_and_drift_app.py` and that the key names are spelled exactly as `GROQ_API_KEY` and `OPENAI_API_KEY`.
+**Institutional buffer effect:** The institutional anchor variable produces a measurable but weaker-than-expected effect on Cultural Practice. The delta of 10 points fell below the 15-point threshold (TC-03 failure).
 
-**An agent returned invalid JSON**
-This occasionally happens when the LLM produces a response that does not parse correctly. Click Restart in the sidebar and try again. If it happens consistently, try switching to a different pivot choice or slightly different variable values.
+**No empirical score calibration:** The MR formula and thresholds were set heuristically. Results should be interpreted as directionally indicative, not empirically validated against longitudinal assimilation research.
 
-**The app is slow between stages**
-Each stage makes a separate API call. Groq is generally very fast (under 3 seconds per stage). If OpenAI is being used as fallback it may take slightly longer.
-
-**Streamlit version errors**
-Make sure you are running Python 3.9 or higher and that you installed from the requirements.txt file rather than installing packages individually.
-
----
-
-## Dependencies
-
-| Package | Version | Purpose |
-|---|---|---|
-| streamlit | 1.32.0+ | Frontend and session state management |
-| plotly | 5.19.0+ | Interactive trajectory chart |
-| openai | 1.12.0+ | Unified client for Groq and OpenAI API calls |
-| python-dotenv | 1.0.0+ | Loading API keys from .env file |
+**Session-based only:** All data is stored in Streamlit session state and cleared on browser close. No cross-session comparison is supported.
